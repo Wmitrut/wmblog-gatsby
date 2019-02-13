@@ -3,7 +3,7 @@ layout:     post
 title:      "4 coisas a se considerar para uma boa UX com Android"
 date:       2016-02-08 12:00:00
 author:     "Wellington Mitrut"
-tags:       HTML5, Javascript, front drops
+tags:       Android, UX, UI
 comments:   true
 ---
 
