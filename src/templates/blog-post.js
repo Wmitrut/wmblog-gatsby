@@ -5,6 +5,8 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import { cups } from '../utils/cups'
+
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -24,8 +26,11 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
+        <small>
           {post.frontmatter.date}
-          {` - ${post.timeToRead} min`}
+          {` • ${cups(post.timeToRead)}`}
+
+        </small>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
