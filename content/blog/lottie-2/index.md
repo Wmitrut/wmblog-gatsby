@@ -75,7 +75,6 @@ Depois de nosso projeto configurado, nossas animações baixadas e tudo mais, es
 Abaixo está o trecho de código inicial onde já chamo o componente de tela do lottie e recupero o arquivo de animação.
 
 ```xml
-    <?xml version="1.0" encoding="utf-8"?>
         <android.support.constraint.ConstraintLayout 
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -100,7 +99,6 @@ Abaixo está o trecho de código inicial onde já chamo o componente de tela do 
                 tools:ignore="MissingConstraints" />
 
         </android.support.constraint.ConstraintLayout>
-
 ```
 Repare nas propriedades que utilizamos exclusivas do Lottie.
 
@@ -147,7 +145,6 @@ Os nossos botões servirão como respectivamente o play/pause e o botão stop, o
 Para implementar na sua activity, é só fazer como no exemplo abaixo:
 
 ```xml
-    <?xml version="1.0" encoding="utf-8"?>
         <android.support.constraint.ConstraintLayout 
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -226,12 +223,14 @@ O primeiro passo disso tudo é atrelar nossos elementos de UI à lógica. A decl
     val pauseButton = findViewById<View>(R.id.button_pause)
     val stopButton = findViewById<View>(R.id.button_stop)
 ```
+
 E depois a nossa view de animação do Lottie
 
 
 ```kotlin
     val animationView = findViewById<View>(R.id.animation_view) as LottieAnimationView
-```
+```
+
 Referenciando a biblioteca.
 
 Depois, criamos os métodos de Pause e Delete da nossa aplicação, repare o quão simples é:
@@ -246,8 +245,7 @@ Depois, criamos os métodos de Pause e Delete da nossa aplicação, repare o qu�
             button_pause.setImageResource(R.drawable.pause)
         }
     }
-
-```
+```
 
 Explicando, chamamos a referência do nosso pauseButton, depois verificamos usando o método isAnimating, como nossa view já carrega a animação executando, nós iremos primeiro passar o método pauseAnimation que irá instantaneamente pausar a animação, depois só trocamos o drawable do botão, aquele mesmo que você baixou anteriormente. No caso de não estar animando, fazemos o inverso e continuamos a animação do frame em que parou.
 
@@ -260,7 +258,7 @@ Para o botão de stop, o processo é mais simples ainda:
         animationView.setProgress(0F)
         button_pause.setImageResource(R.drawable.play)
     }
-```
+```
 
 No caso, cancelamos a animação, você vai ver que se fizer apenas isto ele ficará no mesmo frame, dando a impressão que apenas pausou, então neste caso, para dar a impressão que a animação foi parada mesmo, como um vídeo, temos que setar para o frame inicial da animação, com setProgress para o frame 0, da mesma forma, altero o drawable do nosso botão de pause para play.
 
@@ -275,7 +273,6 @@ A minha activity ficou assim:
     import android.view.View
     import com.airbnb.lottie.LottieAnimationView
     import kotlinx.android.synthetic.main.activity_main.*
-
 
     class MainActivity : AppCompatActivity() {
 
