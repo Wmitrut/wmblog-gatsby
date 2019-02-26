@@ -35,8 +35,12 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: `website`,
               },
               {
+                property: `og:url`,
+                content: `https://blog.wmitrut.com/`,
+              },
+              {
                 property: `og:image`,
-                content: `../../content/assets/ogimg.png`,
+                content: `https://raw.githubusercontent.com/Wmitrut/wmblog-gatsby/master/content/assets/ogimg.png`,
               },
               {
                 name: `twitter:card`,
