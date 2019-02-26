@@ -16,14 +16,14 @@ class Layout extends React.Component {
             ...scale(0.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            color: '#df4a59',
+            color: '#D30002',
           }}
         >
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: '#df4a59',
+              color: '#D30002',
             }}
             to={`/`}
           >
@@ -44,7 +44,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: '#df4a59',
+              color: '#D30002',
             }}
             to={`/`}
           >

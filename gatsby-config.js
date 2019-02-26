@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Wellington Mitrut`,
+    title: `Blog do Mitrut`,
     author: `Wellington Mitrut`,
     description: `Designer, developer and technology consultant.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://blog.wmitrut.com/`,
     social: {
       twitter: `wmitrut`,
     },
@@ -53,20 +53,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-32817386-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `WMBlog`,
-        short_name: `GatsbyJS`,
+        name: `Blog do Mitrut`,
+        short_name: `Blog do Mitrut`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#df4a59`,
+        theme_color: `#D30002`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
