@@ -147,6 +147,8 @@ pre[data-line] {
 
 .gatsby-highlight {
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .gatsby-highlight pre[class*="language-"] {
