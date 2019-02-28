@@ -8,6 +8,7 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
+    let year = new Date().getFullYear();
 
     if (location.pathname === rootPath) {
       header = (
@@ -65,7 +66,7 @@ class Layout extends React.Component {
         {header}
         {children}
         <footer>
-          © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {year}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     )
