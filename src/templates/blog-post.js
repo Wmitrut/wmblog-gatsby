@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 import { cups } from '../utils/cups'
 import { DiscussionEmbed } from "disqus-react";
+import Share from '../components/Share';
 
 
 
@@ -15,6 +16,10 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const excerpt = this.props.excerpt
+    const url = this.props.pageContext.slug
+  
+
 
     const disqusShortname = "wmitrut";
     const disqusConfig = {
@@ -41,13 +46,13 @@ class BlogPostTemplate extends React.Component {
         </small>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Share title={post.frontmatter.title} excerpt={excerpt} url={url}/>
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
         <Bio />
-
         <ul
           style={{
             display: `flex`,
@@ -86,6 +91,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
