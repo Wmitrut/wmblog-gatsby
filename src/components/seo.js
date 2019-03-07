@@ -10,6 +10,8 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
+          const metaImage =
+          image || data.site.siteMetadata.featuredImage
         return (
           <Helmet
             htmlAttributes={{
@@ -102,6 +104,7 @@ const detailsQuery = graphql`
         title
         description
         author
+        featuredImage
       }
     }
   }
