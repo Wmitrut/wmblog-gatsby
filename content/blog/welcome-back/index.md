@@ -5,8 +5,12 @@ date:       2019-03-02 12:00:00
 author:     "Wellington Mitrut"
 tags:       Meta, Comunidade, Blog, Javascript, Typescript
 comments:   true
-featuredImage: "./lighthouse.png"
+featuredImage: "./elp.jpg"
 ---
+
+
+![Emerson, Lake & Palmer](./elp.jpg)
+
 > O título é uma referência a esta música de Emerson, Lake & Palmer que você pode acompanhar abaixo - os tópicos do texto são movimentos dessa música:
 
 <iframe src="https://open.spotify.com/embed/track/0nDQu5i6B93GvUJH8iJ0y9" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
