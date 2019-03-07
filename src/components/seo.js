@@ -10,8 +10,7 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
-          const metaImage =
-          image || data.site.siteMetadata.featuredImage
+          const metaImage = data.site.siteMetadata.featuredImage ||image
         return (
           <Helmet
             htmlAttributes={{
