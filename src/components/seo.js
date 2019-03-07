@@ -10,7 +10,6 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
-          const metaImage = data.site.siteMetadata.featuredImage ||image
         return (
           <Helmet
             htmlAttributes={{
@@ -41,7 +40,7 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
               },
               {
                 property: `og:image`,
-                content: metaImage,
+                content: image,
               },
               {
                 name: `twitter:card`,
@@ -80,8 +79,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-  url:'',
-  image: `https://i.imgur.com/ihGD5fI.png`
+  url:''
 }
 
 SEO.propTypes = {
@@ -91,7 +89,6 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
   url: PropTypes.string,
-  image: PropTypes.string.isRequired
 }
 
 export default SEO
