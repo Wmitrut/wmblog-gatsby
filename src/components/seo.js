@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
               },
               {
                 property: `og:url`,
-                content: url,
+                content: "https://blog.wmitrut.com"+ url,
               },
               {
                 property: `og:image`,
