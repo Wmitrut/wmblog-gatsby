@@ -5,6 +5,7 @@ date:       2018-04-01 12:00:00
 author:     "Wellington Mitrut"
 tags:       UI, UX, PWA, Mobile, Javascript
 comments:   true
+featuredImage: "./capa.png"
 ---
 ![Capa](./capa.png)
 

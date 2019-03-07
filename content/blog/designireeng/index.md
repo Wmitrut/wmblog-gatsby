@@ -5,6 +5,7 @@ date:       2017-11-26 12:00:00
 author:     "Wellington Mitrut"
 tags:       UI, UX, Filosofia, Traduções, Programação
 comments:   true
+featuredImage: "./designdeveloper.gif"
 ---
 
 

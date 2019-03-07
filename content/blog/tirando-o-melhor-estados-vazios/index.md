@@ -5,6 +5,7 @@ date:       2016-10-21 12:00:00
 author:     "Wellington Mitrut"
 tags:       UX, Mobile, Android, iOs, Design
 comments:   true
+featuredImage: "./sala.jpeg"
 ---
 
 ![Sala Vazia](./sala.jpeg)

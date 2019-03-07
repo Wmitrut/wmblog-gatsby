@@ -5,6 +5,7 @@ date:       2016-02-23 12:00:00
 author:     "Wellington Mitrut"
 tags:       Android, UX
 comments:   true
+featuredImage: "./pulse/jpeg"
 ---
 
 A internet e as interações estão saindo das telas e ganhando as ruas, para nos garantir uma boa interação e praticidade é necessário começar a pensar JÁ nas interações com wearables.

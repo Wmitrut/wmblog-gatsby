@@ -5,6 +5,7 @@ date:       2016-10-06 12:00:00
 author:     "Wellington Mitrut"
 tags:       Productivity
 comments:   true
+featuredImage: "./droid.png"
 ---
 
 Está passando mais um carro da devlândia na sua rua com um blog cheio de coisa legal que vem por aí falando de desenvolvimento, UX, UI Design… PWA e muito mais!

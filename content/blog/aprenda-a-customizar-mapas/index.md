@@ -5,6 +5,7 @@ date:       2017-05-08 12:00:00
 author:     "Wellington Mitrut"
 tags:       Android, Google Maps, Design
 comments:   true
+featuredImage: "./capa.png"
 ---
 
 ![Capa](./capa.png)

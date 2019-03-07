@@ -5,6 +5,7 @@ date:       2017-04-17 12:00:00
 author:     "Wellington Mitrut"
 tags:       Android, Kotlin, Traduções
 comments:   true
+featuredImage: "./top.png"
 ---
 
 ![Capa](./top.png)

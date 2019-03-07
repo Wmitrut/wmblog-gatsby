@@ -5,6 +5,7 @@ date:       2018-03-06 12:00:00
 author:     "Wellington Mitrut"
 tags:       UI, UX, PWA, Mobile, Javascript
 comments:   true
+featuredImage: "./cant.png"
 ---
 
 ![I can`t believe it is not native](./cant.png)

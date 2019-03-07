@@ -5,6 +5,7 @@ date:       2017-04-13 12:00:00
 author:     "Wellington Mitrut"
 tags:       Pessoal, Comunidade
 comments:   true
+featuredImage: "./top.png"
 ---
 
 ![Capa](./top.png)

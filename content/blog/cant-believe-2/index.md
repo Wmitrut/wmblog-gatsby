@@ -5,6 +5,7 @@ date:       2018-10-01 12:00:00
 author:     "Wellington Mitrut"
 tags:       UI, UX, PWA, Mobile, Javascript
 comments:   true
+featuredImage: "./capa.jpeg"
 ---
 
 Depois de um longo tempo sem publicar, continuo o post sobre como transformar seu PWA em um aplicativo de verdade.

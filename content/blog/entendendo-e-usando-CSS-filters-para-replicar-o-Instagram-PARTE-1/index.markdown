@@ -6,7 +6,7 @@ date:       2015-04-15 12:00:00
 author:     "Wellington Mitrut"
 tags:       HTML5, Javascript, front drops
 comments:   true
-header-img: "img/posts/front/01/head.jpg"
+featuredImage: "./instagraminterface.jpg"
 ---
 
 Depois de uma boa demora, voltaremos com a série de dicas de front-end aqui no blog, tente acompanhar, toda quarta sai o post e tem muito mais novidades programadas pra você vindo por aí.

@@ -6,7 +6,7 @@ date:       2015-06-15 12:00:00
 author:     "Wellington Mitrut"
 tags:       HTML5, Javascript, front drops
 comments:   true
-header-img: "img/posts/other/moments.jpg"
+featuredImage: "./mobile.jpg"
 ---
 
 Nos disseram que a revolução não seria televisionada e não acreditamos. Você já se perguntou quantas vezes por dia olha para o celular? Seja para ver hora ou pesquisar algo rápido na internet,  segundo estudo da KPCB’s investments (grupo que financiou startups como SoundCloud, Spotify, Twitter e Slack),  nós olhamos nossos celulares mais de 150 vezes por dia.

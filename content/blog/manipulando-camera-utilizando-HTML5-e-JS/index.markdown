@@ -5,6 +5,7 @@ subtitle:   "Front-drops #s01e01 - Pequeno tutorial rápido de como usar html5 e
 date:       2015-03-12 12:00:00
 author:     "Wellington Mitrut"
 tags:       HTML5, Javascript, front drops
+featuredImage: "./exemplo1.png"
 ---
 
 Olá pessoal, tudo certo? Tenho mudado mais de casa dos meus blogs que  de roupa não é mesmo? Acontece que 2014 foi um ano corrido e 2015 promete ser um ano de grandes realizações, o que aconteceu na real é que eu não encontrava nenhum lugar que realmente imprimisse minha personalidade e que tivesse uma forma objetiva de apresentar as coisas, o que agora parece acontecer aqui no nosso amigo <a href="http://github.com/">GitHub</a>.

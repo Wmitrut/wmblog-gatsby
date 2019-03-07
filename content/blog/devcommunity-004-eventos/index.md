@@ -5,6 +5,7 @@ date:       2016-12-21 12:00:00
 author:     "Wellington Mitrut"
 tags:       Podcast, Dev & Community Cast, Comunidade
 comments:   true
+featuredImage: "./capa.png"
 ---
 
 ![Capa](./capa.png)

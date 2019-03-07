@@ -5,6 +5,7 @@ date:       2016-10-09 12:00:00
 author:     "Wellington Mitrut"
 tags:       Xamarin, Mobile, Android, iOs
 comments:   true
+featuredImage: "./plush.jpeg"
 ---
 
 > Esse artigo é uma tradução livre e adaptada de “Xamarin Vs. Native”, publicada por Colby Williams. Eu ainda não sei mais que o básico e pesquisável em qualquer site de Xamarin na internet, por isso, sinta-se a vontade para sugerir correções e etc.

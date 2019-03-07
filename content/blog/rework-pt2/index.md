@@ -6,6 +6,7 @@ date:       2015-08-04 12:00:00
 header-img: "img/posts/other/show.jpg"
 author:     "Wellington Mitrut"
 comments:   true
+featuredImage: "./jamieoliver.jpg"
 ---
 
 Olá pessoal! Estamos aqui com o segundo post sobre o livro REWORK, do pessoal da antiga 37Signals (hoje conhecida como Basecamp), que criou o framework Ruby On Rails. Durante a semana algumas pessoas me pediram mais sobre o livro e como achá-lo aqui no Brasil. Pois bem, aqui ele saiu com o nome de 'Reinvente sua empresa', pela editora Sextante e é bem fácil de encontrar nas diversas lojas online do ramo.

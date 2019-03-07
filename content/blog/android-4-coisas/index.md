@@ -5,6 +5,7 @@ date:       2016-02-08 12:00:00
 author:     "Wellington Mitrut"
 tags:       Android, UX, UI
 comments:   true
+featuredImage: "./capa.jpeg"
 ---
 
 Durante muito tempo no meio de design de aplicativos projetos iOS foram favorecidos em detrimento a projetos com Android, isso se deve em grande parte ao fato de que o Android não teve até 2014 uma guideline de design que fosse sólida e específica, porém, isso mudou com a implementação do Material Design.

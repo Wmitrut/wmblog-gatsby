@@ -6,7 +6,7 @@ date:       2015-05-08 12:00:00
 author:     "Wellington Mitrut"
 tags:       HTML5, Javascript, front drops
 comments:   true
-header-img: "img/post-bg-03.jpg"
+featuredImage: "./filtragram.jpg"
 ---
 
 Olá, como prometido, o post hoje é mais prático e mostra uma aplicação do css filter tentando replicar os filtros do instagram.

@@ -5,6 +5,7 @@ date:       2017-04-28 12:00:00
 author:     "Wellington Mitrut"
 tags:       Ionic, Web, Javascript, Typescript
 comments:   true
+featuredImage: "./zuck.png"
 ---
 
 Vamos começar este texto sendo adultos e combinar duas coisas: a primeira é que não importa a tecnologia que ele é feito, aplicativo bom é aplicativo bom e aplicativo ruim é aplicativo ruim, seja ele feito com Javascript, C#, Swift, Java, Cobol, React , Lisp e seja lá o que for e a segunda é: **as pessoas estão pouco se f@#$% para a tecnologia que você utilizou pra fazer esse app, elas querem que ele funcione!**

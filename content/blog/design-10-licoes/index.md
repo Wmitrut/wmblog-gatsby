@@ -5,6 +5,7 @@ date:       2017-07-24 12:00:00
 author:     "Wellington Mitrut"
 tags:       UI, UX, Mobile
 comments:   true
+featuredImage: "./evolucao.png"
 ---
 
 > Opa, voltando aqui pro blog com um texto menor que o usual mas não menos importante, espero voltar com a mesma periodicidade publicando aqui e no blog da Tampa. Estou preparando uma série de conteúdos novos e novos formatos, até mesmo alguns conteúdos baixáveis interessantes para você desenvolvedor que quer aprender um pouco mais de design e vice-versa.
