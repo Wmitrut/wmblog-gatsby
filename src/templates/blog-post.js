@@ -18,8 +18,6 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
     const excerpt = this.props.excerpt
     const url = this.props.pageContext.slug
-  
-
 
     const disqusShortname = "wmitrut";
     const disqusConfig = {
@@ -29,7 +27,12 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <SEO 
+          title={post.frontmatter.title} 
+          description={post.excerpt} 
+          url={url}
+          image={this.props.data.site.siteMetadata.featuredImage}
+          />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{

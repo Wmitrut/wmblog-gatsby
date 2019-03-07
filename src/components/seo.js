@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, title, url, image }) {
   return (
     <StaticQuery
       query={detailsQuery}
@@ -36,11 +36,11 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:url`,
-                content: `https://blog.wmitrut.com/`,
+                content: url,
               },
               {
                 property: `og:image`,
-                content: `https://lh3.googleusercontent.com/iAPOQcjk2lZzQt_B222uVn6EWQ74BNBPhCxwcafOf_9EtRAeHV0k4Fdd3eYy-X3qAtEmFsPM-4vhyFG613emrUVUcg5aRRqtv3NPACUNRJopqG3D-K6sc9BdIw2tP3CFMgMFW3dxBl91aP74U8pT2aLygDIQPohY_NunwCrkLW0PX1hn6yhCXO2gCY806_gf-0ssk1GprYxU-goMXdFrvxG2eRRCltvFm8b_FWnbqPQBRzPWTfbkG_cw2l7D2KyTQ8Mz6QWpgUjVPzSBLGfR2E1GIMiL7H80eXRXVEzTdIwwT_YU-gM7XZZIgSVtmFn4iUKAqflUKnSlNEC5mlNKMd09WW0dPhJuY1AlwLc-xrkGMR1vnTalEi9h_Rj854dA3pMlkHShTlaq6pRqMwQro_m_TjsfEpiMVHMYvMdRP-nZ6dLA8UnDYEP4IWnJ0BARVe0itxOROEzqqfWhKqqNKWsWlSoU2IZlQaemFMOwdt3Iugwk4BjQuIthj_xx6Ygm0acVVLBvEvyTXH1gsLpaOy5xyLFQKmB2MdM3kzc-QjhXzZLznNzUb4rhrgd5F4D8_xfuzIDUmzfnLfbrtbhhYKYqkKl51E2feszgCLB3e6sJz6bAkwMa3P6s_CI26lrWorBhrdhh1EtWVxc_SwjiQ1rf1-TEjk_C=w1000-h667-no`,
+                content: image,
               },
               {
                 name: `twitter:card`,

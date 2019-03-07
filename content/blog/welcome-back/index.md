@@ -5,6 +5,7 @@ date:       2019-03-02 12:00:00
 author:     "Wellington Mitrut"
 tags:       Meta, Comunidade, Blog, Javascript, Typescript
 comments:   true
+featuredImage: "./lighthouse.png"
 ---
 > O título é uma referência a esta música de Emerson, Lake & Palmer que você pode acompanhar abaixo - os tópicos do texto são movimentos dessa música:
 
