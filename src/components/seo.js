@@ -104,7 +104,6 @@ const detailsQuery = graphql`
         title
         description
         author
-        featuredImage
       }
     }
   }
