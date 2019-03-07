@@ -96,7 +96,6 @@ export const pageQuery = graphql`
         title
         author
         siteUrl
-        featuredImage
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
