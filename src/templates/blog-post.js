@@ -31,7 +31,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title} 
           description={post.excerpt} 
           url={url}
-          image={this.props.data.site.siteMetadata.featuredImage}
+          image={post.frontmatter.featuredImage}
           />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -104,6 +104,7 @@ export const pageQuery = graphql`
       timeToRead
       frontmatter {
         title
+        featuredImage
         date(formatString: "MMMM DD, YYYY")
       }
     }
