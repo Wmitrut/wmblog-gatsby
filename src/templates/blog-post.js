@@ -15,8 +15,6 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const featuredImage = this.props.data.site.siteMetadata.featuredImage
-    console.log("Featured images:"+ featuredImage)
     const { previous, next } = this.props.pageContext
     const excerpt = this.props.excerpt
     const url = this.props.pageContext.slug
@@ -33,7 +31,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title} 
           description={post.excerpt} 
           url={url}
-          image={this.props.data.site.siteMetadata.featuredImage}
+          image={post.frontmatter.featuredImage}
           />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -108,6 +106,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        featuredImage{
+          childImageSharp{
+              sizes(maxWidth: 630) {
+                ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
   }

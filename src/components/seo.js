@@ -79,7 +79,8 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-  url:''
+  url:'',
+  image: 'https://i.imgur.com/ihGD5fI.png'
 }
 
 SEO.propTypes = {
@@ -89,6 +90,7 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
   url: PropTypes.string,
+  image: PropTypes.string.isRequired
 }
 
 export default SEO
