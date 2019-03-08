@@ -43,6 +43,14 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
                 content: image,
               },
               {
+                property: `og:image:width`,
+                content: `800`
+              },
+              {
+                property: `og:image:height`,
+                content: `600`
+              },
+              {
                 name: `twitter:card`,
                 content: `summary_large_image`,
               },
