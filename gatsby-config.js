@@ -80,6 +80,7 @@ module.exports = {
         display: `standalone`,
         icon: `content/assets/icon.png`,
         include_favicon: true,
+        legacy: true,
       },
     },
     `gatsby-plugin-offline`,
