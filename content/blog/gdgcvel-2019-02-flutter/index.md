@@ -35,6 +35,14 @@ Trazendo conceitos mais avançados, problemas e acertos da escolha da tecnologia
 ![Foto da chamada das redes sociais para a palestra de Douglas e Matheus, acervo do GDG](./04.png)
 > Foto da chamada das redes sociais para a palestra de Douglas e Matheus.
 
+### Pós-Evento
+
+Pouco antes da publicação deste post, o [Marcelo Araújo](https://www.linkedin.com/in/marcelo-araujo-3179a364/) compartilhou sua experiência conosco sobre como tem estudado flutter. Abaixo é possível conferir o post e um vídeo com seu projeto.
+
+![Post do Marcelo no linkedin](./marcelo.png)
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/2WTgIMm"  ><a href="//imgur.com/a/2WTgIMm">Vídeo com o sample de Flutter do Marcelo Araújo</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 ### Sorteio
 
 ![Logo do Appétit Delivery](./06.png)
