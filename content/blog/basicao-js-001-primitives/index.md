@@ -33,7 +33,7 @@ O Javascript, embora tenha mais idade que alguns leitores, é uma linguagem de p
 ![Dunga levantando a taça do Tetra de 1994](./002.png)
 > Photo by FIFA
 
-É impraticável pensar a internet de hoje sem o JS, muita gente pode tentar reproduzir com outras linguagens, mas a base de tudo é o JS. A internet, o conceito de site, de aplicações, tudo isso veio antes, mas o MUNDO como conhecemos hoje seria consideravelmente sem o JS.
+É impraticável pensar a internet de hoje sem o JS, muita gente pode tentar reproduzir com outras linguagens, mas a base de tudo é o JS. A internet, o conceito de site, de aplicações, tudo isso veio antes, mas o MUNDO como conhecemos hoje seria consideravelmente diferente sem o JS.
 
 O javascript é uma linguagem multiparadigma, ou seja, existem muitas formas distintas de se trabalhar com ela: orientada a eventos, imperativa, funcional e o diabo a 4 - mas isto é algo que podemos tratar num post (ou mais) futuro.
 
