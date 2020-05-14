@@ -45,8 +45,8 @@ Tipagem é o ato de você atribuir a um elemento abstrato um formato de dados. S
 
 O JS permite você atribuir diversos tipos de valor a uma variável sem que isso seja fixado, uma variável pode em um momento ser do *tipo a* e logo depois posso atribuir um *tipo b*  a ela. Isso pode ser bom como pode ser ruim. Vejamos abaixo como isso funciona:
 
-![Exêmplo de tipagem dinâmica](./003.png)
-> Exêmplo de tipagem dinâmica
+![Exemplo de tipagem dinâmica](./003.png)
+> Exemplo de tipagem dinâmica
 
 Essa tipagem dinâmica pode parecer um tanto confusa e algumas pessoas realmente não gostam, criam coisas como o Typescript e o Flow mas com o tempo você irá se acostumar e entender um pouco mais. Existem momentos em que ambas as abordagens podem ser úteis e tem seus fãs e detratores, mas no final é tudo JS.
 
@@ -71,8 +71,8 @@ Agora que você entendeu este conceito, no javascript  podemos trazer esse mesmo
 
 Deste modo, no nosso exemplo acima, eu digo para minha variável isMusicPlaying que ela é TRUE, que é verdadeira, que sim - há música tocando.
 
-![Exêmplo de Boolean](./005.png)
-> Exêmplo de Boolean
+![Exemplo de Boolean](./005.png)
+> Exemplo de Boolean
 
 Um exemplo de uso? Imagine que justamente criamos um player de música tal qual o Spotify e queremos saber se uma música está sendo tocada, no caso, implementamos toda uma estrutura que irá no final resultar em atribuir a isMusicPlaying o valor true ou false para assim fazermos outras funções e implementações do nosso player.
 
@@ -82,16 +82,16 @@ Number é justamente um número.
 
 Eu sei o que você pensou:
 
-> "Nossa, gênio, como eu não havia pensado nisso, alguém da um desses prêmio fancy pro rei da programação aqui!"
+> "Nossa, gênio, como eu não havia pensado nisso, alguém dá um desses prêmio fancy pro rei da programação aqui!"
 
 Mas calma lá, diferente de algumas linguagens de programação, JS não precisa de um tipo específico para inteiros, todo número é um number. Todo número inteiro, negativo, positivo, de ponto flutuante (os lembra dos números racionais? Achou que nunca ia utiliza-los né).
 
 Então desde -0.243423415 ao 3 estão compreendidos neste tipo.
 
-PORÉM, uma coisa importante é que as vezes o JS é meio doido e pode ter seus problemas. E é aqui que eu apresento a vocês um problema clássico do tipo number em JS:
+PORÉM, uma coisa importante é que as vezes o JS é meio doido e pode ter seus problemas. E é aqui que eu apresento a vocês um [problema clássico do tipo number](https://0.30000000000000004.com/#javascript) em JS:
 
-![Exêmplo de Number](./006.png)
-> Exêmplo de Number
+![Exemplo de Number](./006.png)
+> Exemplo de Number
 
 Sim.
 
@@ -103,12 +103,12 @@ Pra isso a gente tem que usar artifícios como o método toFixed() e o toPrecisi
 
 A maneira mais simples mas não a mais correta de explicar o do que uma *String* se trata é esta: **é um texto.**
 
-Agora, se quisermos realmente nos aprofundar, o conceito pode ser melhor definido como uma sequencia de caracteres. Você pode representar uma string com aspas simples ('') ou com aspas duplas("").
+Agora, se quisermos realmente nos aprofundar, o conceito pode ser melhor definido como uma sequência de caracteres. Você pode representar uma string com aspas simples ('') ou com aspas duplas("").
 
-![Exêmplo de String](./007.png)
-> Exêmplo de String
+![Exemplo de String](./007.png)
+> Exemplo de String
 
-É possível 'navegar' em uma string utilizando programação. por exemplo, eu posso recuperar o valor de um caractere com base no índice que ele ocupa nela. Eu consigo, via linguagem de programação saber qual é a posição ( índice ) de uma letra dentro da string, sabendo que os índices em JS começam com 0, na nossa variável bandName, o valor do índice 2 é *s* e assim por diante.
+É possível 'navegar' em uma string utilizando programação. Por exemplo, eu posso recuperar o valor de um caracter com base no índice que ele ocupa nela. Eu consigo, via linguagem de programação saber qual é a posição (índice) de uma letra dentro da string, sabendo que os índices em JS começam com 0, na nossa variável bandName, o valor do índice 2 é *s* e assim por diante.
 
 Diferente de linguagens como C, strings em JS são imutáveis. Isto significa que: uma vez criada a string, não é possível modificá-la. Entretanto, ainda é possível criar outra string baseada em um operador na string original. Por exemplo:
 
@@ -121,7 +121,7 @@ Undefined é algo que não teve seu valor definido, algo sem um valor, **não é
 
 ### Null
 
-Nulo por sua vez é um valor inexistente. Em ciência da computação, um valor nulo representa uma referencia que aponta, geralmente de maneira intencional, para um objeto ou endereço de memória inválido ou inexistente. O significado do valor nulo varia entre as implementações das linguagens.
+Nulo por sua vez é um valor inexistente. Em ciência da computação, um valor nulo representa uma referência que aponta, geralmente de maneira intencional, para um objeto ou endereço de memória inválido ou inexistente. O significado do valor nulo varia entre as implementações das linguagens.
 
 Imagine sua aplicação como se fosse uma caixa, enquanto undefined é algo que ainda não recebeu um valor mas está la dentro,  já o nulo não existe nesse universo da casa.
 
