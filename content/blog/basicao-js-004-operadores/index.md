@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#004 - Basicão do JS - Operadores de comparação '
+title: '#004 - Basicão do JS: Operadores de comparação '
 date: 2021-05-15 12:00:00
 author: 'Wellington Mitrut'
 tags: Javascript, Community, Basicão do Javascript
@@ -8,7 +8,11 @@ comments: true
 featuredImage: './001.jpg'
 ---
 
-O post de hoje vai falar sobre conceitos básicos de matematica aplicados ao javascript
+Vamos continuar a série do básicão do Javascript hoje com operadores de comparação, um assunto rápido mas crucial para entender qualquer linguagem de programação.
+
+Coloca o álbum do Muse pra tocar e segue o jogo
+
+<iframe src="https://open.spotify.com/embed/album/1Dh27pjT3IEdiRG9Se5uQn" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ![Gatinho enfermeiro](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yvagjg6kgoiramtztws5.jpg)
 
