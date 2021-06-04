@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "#003 Basicão do JS: Várias Variáveis"
-date:       2021-01-25 12:00:00
-author:     "Wellington Mitrut"
-tags:       Javascript, Community, Basicão do Javascript
-comments:   true
-featuredImage: "./001.jpg"
+layout: post
+title: '#003 Basicão do JS: Várias Variáveis'
+date: 2021-01-25 12:00:00
+author: 'Wellington Mitrut'
+tags: Javascript, Community, Basicão do Javascript
+comments: true
+featuredImage: ./001.jpg
 ---
 
 Hoje vamos falar de Várias Variáveis.
@@ -16,7 +16,7 @@ Não, esse texto não é sobre o álbum do engenheiros mas poderia ser.
 
 Eu to é muito feliz com o feedback que vocês tem me dado nestes posts, embora ainda sejam poucos leitores e a maioria amigos eu vou insistir neste projeto pois consigo tirar muita coisa da cabeça e pôr meu blog pra funcionar de uma maneira que eu sempre quis que fosse por aqui.
 
-Digo isso não só por repercussão mas por que acho que é importante pra mim tanto tentar ensinar quem  ta começando quanto pra reforçar em mim mesmo estes pequenos conceitos de JS e engenharia de software. É básico mas o básico sempre precisa estar sendo lembrado.
+Digo isso não só por repercussão mas por que acho que é importante pra mim tanto tentar ensinar quem ta começando quanto pra reforçar em mim mesmo estes pequenos conceitos de JS e engenharia de software. É básico mas o básico sempre precisa estar sendo lembrado.
 
 Dito isto, como sempre, coloca o último álbum do Katatonia aí
 
@@ -56,9 +56,9 @@ Mas não é indicado, embora os caracteres diferentes do tipo UTF-8 (esses que v
 
 ![💩.png](./003.png)
 
-- **É possível utilizar _ e $ para nomear variávels**
+- **É possível utilizar \_ e \$ para nomear variávels**
 
- Realmente há quem goste de usar esses dois caracteres para simbolizar as variáveis em JS tanto no começo quanto para separar palavras, mas isso vai de gosto e de organização de estilo de código.
+Realmente há quem goste de usar esses dois caracteres para simbolizar as variáveis em JS tanto no começo quanto para separar palavras, mas isso vai de gosto e de organização de estilo de código.
 
 > Mas Mitrut, vi um pessoal falando que pode se declarar uma variável com o prefixo var e você utilizou let nos seus exêmplos... como isso funciona?
 
@@ -68,11 +68,11 @@ Mas não é indicado, embora os caracteres diferentes do tipo UTF-8 (esses que v
 
 Um conceito que é preciso entender antes de se entender o que difere um 'let' dum 'var' e duma 'const ' se chama ESCOPO.
 
-Escopo é o limite do universo no qual as suas variáveis e funções existem. Existem os escopos **globais, de bloco**  ou de **função.**
+Escopo é o limite do universo no qual as suas variáveis e funções existem. Existem os escopos **globais, de bloco** ou de **função.**
 
 ![Escopo](./004.png)
 
-O que isso significa na prática? Bom, quando você cria uma variável `let` ao invés de uma `var`, a let é limitada ao seu bloco ou função, seu  valor não pode ser acessado fora do bloco de código no que foi criada.
+O que isso significa na prática? Bom, quando você cria uma variável `let` ao invés de uma `var`, a let é limitada ao seu bloco ou função, seu valor não pode ser acessado fora do bloco de código no que foi criada.
 
 ![Exemplo de acesso do valor com var](./005.png)
 
@@ -82,7 +82,7 @@ Se fosse com let, seria o seguinte:
 
 ![Exemplo de acesso do valor com let](./006.png)
 
-Você pode ver que tivemos ``❌ ReferenceError: i is not defined``, ou seja, ele não encontrou o valor da variável pois variáveis com let pertencem somente ao universo do bloco que foram criadas, nesse caso, somente ao loop do for.
+Você pode ver que tivemos `❌ ReferenceError: i is not defined`, ou seja, ele não encontrou o valor da variável pois variáveis com let pertencem somente ao universo do bloco que foram criadas, nesse caso, somente ao loop do for.
 
 E se for const?
 
@@ -98,9 +98,9 @@ Não é difícil, mas tá... agora aqui no fim do post, qual usar e quando? Minh
 
 E é isso pessoal, em breve virá mais um post pra vocês, onde vamos falar sobre matemática e operadores.
 
------
-## **Links e Fontes**
+---
 
+## **Links e Fontes**
 
 ▶ 🔗 [Boa e Velha MDN](https://developer.mozilla.org/pt-PT/docs/Web/JavaScript/Guia/Valores,_Vari%C3%A1veis_e_Literais)
 
@@ -110,7 +110,6 @@ E é isso pessoal, em breve virá mais um post pra vocês, onde vamos falar sobr
 
 ▶ 🔗 Acompanhe as lives do [POKEMÃO](https://www.twitch.tv/pokemaobr)!
 
-
 ## **E mais**
 
 ▶ FIQUE EM CASA, COMPRE LOCAL, LAVE A MÃO E USE MÁSCARA.
@@ -119,8 +118,8 @@ E é isso pessoal, em breve virá mais um post pra vocês, onde vamos falar sobr
 
 ▶ Leia, e leia muito se possível. Mas também se respeite e descanse.
 
-▶  Tome vacina. Não existe tratamento precoce, Fora Bolsonaro.
+▶ Tome vacina. Não existe tratamento precoce, Fora Bolsonaro.
 
-▶  Não caia em papo de dev coach nóia.
+▶ Não caia em papo de dev coach nóia.
 
 [![Me sigaa na twitch](twitchbanner.png)](https://www.twitch.tv/wmitrut)

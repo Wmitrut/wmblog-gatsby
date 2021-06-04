@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Suas UIs animadas com Lottie pt.2: Implementando Lottie no Android com Kotlin"
-date:       2018-02-16 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, Android, Lottie, Libs, Kotlin
-comments:   true
-featuredImage: "./polvo.gif"
+layout: post
+title: 'Suas UIs animadas com Lottie pt.2: Implementando Lottie no Android com Kotlin'
+date: 2018-02-16 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, Android, Lottie, Libs, Kotlin
+comments: true
+featuredImage: ./polvo.gif
 ---
 
 ![Polvo tocando violão](./polvo.gif)
@@ -20,7 +20,7 @@ O Lottie, faz algo mais ou menos nessa linha, animações para a sua aplicação
 
 Agora, o que nós vamos fazer neste post é uma aplicação demonstrativa em Android nativo utilizando Kotlin com alguns dos principais métodos desta biblioteca.
 
-Pega papel, caneta e uma tesoura sem ponta que *eu vou mostrar para a moçada como fazer…*
+Pega papel, caneta e uma tesoura sem ponta que _eu vou mostrar para a moçada como fazer…_
 
 Você pode baixar do Github abaixo ou fazer passo a passo (o que eu particularmente recomendo).
 
@@ -30,9 +30,9 @@ Você pode baixar do Github abaixo ou fazer passo a passo (o que eu particularme
 
 Primeiro de tudo, peço para que você tenha a última versão do Android Studio, que até a data deste post era a 3.0.1.
 
-Segundo, crie um projeto no Android Studio com uma *Empty Activity*. Por quê? Porque ela tem o básico para o que vamos precisar nesta primeira aplicação: uma toolbar.
+Segundo, crie um projeto no Android Studio com uma _Empty Activity_. Por quê? Porque ela tem o básico para o que vamos precisar nesta primeira aplicação: uma toolbar.
 
-Isto feito, deixe que o Android Studio baixe as bibliotecas básicas com o Gradle e abra o arquivo ***build.gradle***.
+Isto feito, deixe que o Android Studio baixe as bibliotecas básicas com o Gradle e abra o arquivo **_build.gradle_**.
 
 na área de dependencies instale as seguintes bibliotecas:
 
@@ -44,6 +44,7 @@ na área de dependencies instale as seguintes bibliotecas:
         ...
     }
 ```
+
 > Importante, caso estas bibliotecas estejam desatualizadas, tente usar a versão corrente da data que você está lendo.
 
 Isto feito, deixe o Gradle baixar as dependências do seu projeto novamente, o que instalamos aqui é o próprio Lottie e a Design Support Library do Android, que é essencial para componentes do material design. Mais à frente você vai entender o por que de utilizarmos esta mesma.
@@ -54,11 +55,11 @@ Eu particularmente não sei fazer animações no After-Effects, mas isto não é
 
 O Lottie Files é um repositório da comunidade, então vá lá e escolha uma animação legal para testarmos.
 
-No nosso repositório do Github eu coloquei 3 animações dentro da pasta Assets: *rey.json, shape_types.json e spirit_geek.json*. Todas encontradas no Lottie Files.
+No nosso repositório do Github eu coloquei 3 animações dentro da pasta Assets: _rey.json, shape_types.json e spirit_geek.json_. Todas encontradas no Lottie Files.
 
-Para este post utilizei a *rey.json*. Importante ressaltar que a pasta Assets não é uma pasta que vem de forma ‘nativa’ junto ao projeto quando ele é criado no Android Studio, então dentro da pasta *main*, você pode criar a pasta assets e colocar os arquivos lá.
+Para este post utilizei a _rey.json_. Importante ressaltar que a pasta Assets não é uma pasta que vem de forma ‘nativa’ junto ao projeto quando ele é criado no Android Studio, então dentro da pasta _main_, você pode criar a pasta assets e colocar os arquivos lá.
 
-A paleta de cores que utilizei é a seguinte: Dentro da pasta ***res/values*** existe o arquivo ***colors.xml*** ele vai ser nosso arquivo de cores básicas, abaixo o que eu utilizei:
+A paleta de cores que utilizei é a seguinte: Dentro da pasta **_res/values_** existe o arquivo **_colors.xml_** ele vai ser nosso arquivo de cores básicas, abaixo o que eu utilizei:
 
 ```xml
     <color name="colorPrimary">#00D1C1</color>
@@ -76,7 +77,7 @@ Depois de nosso projeto configurado, nossas animações baixadas e tudo mais, es
 Abaixo está o trecho de código inicial onde já chamo o componente de tela do lottie e recupero o arquivo de animação.
 
 ```xml
-        <android.support.constraint.ConstraintLayout 
+        <android.support.constraint.ConstraintLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
@@ -101,6 +102,7 @@ Abaixo está o trecho de código inicial onde já chamo o componente de tela do 
 
         </android.support.constraint.ConstraintLayout>
 ```
+
 Repare nas propriedades que utilizamos exclusivas do Lottie.
 
 **app:lottie_fileName=”rey.json”** — Aqui fica explicitado o arquivo que iremos utilizar, no caso rey.json.
@@ -117,7 +119,7 @@ Esperamos a compilação, escolhemos o dispositivo e…
 
 ![Aplicativo rodando](./app.gif)
 
-*Voilá!* Nossa animação rodando bonita!
+_Voilá!_ Nossa animação rodando bonita!
 
 > Tá, mas é só isso? Sério que você levou 2 posts pra falar isso?
 
@@ -129,7 +131,7 @@ Como já disse anteriormente, esta pequena aplicação se preocupará em criar a
 
 Com o post de hoje, no entanto, apesar de você ver o básico, é possível já criar um Empty State interessante e melhor que aquela velha imagem parada que você utilizava. Eu já falei de empty states e as vantagens de utiliz-a-los aqui no blog.
 
-Mas vamos lá, para continuar a implementação da nossa aplicação, antes de tudo é interessante baixar 3 ícones, sabe aqueles de play, pause e stop já tradicionais? Então, eu fui no [MaterialDesignIcons](https://materialdesignicons.com/), um banco de ícones sensacional e baixei estes 3 ícones em formato *VectorDrawable*, que é uma espécie de SVG/XML que o Android entende e renderiza. É importante que ele seja um VectorDrawable para manter a qualidade, pois não sei qual a resolução da sua tela e esses Drawables mantém a qualidade, independente da sua resolução. Se você não sabe quais são os ícones, pode se orientar com a imagem abaixo.
+Mas vamos lá, para continuar a implementação da nossa aplicação, antes de tudo é interessante baixar 3 ícones, sabe aqueles de play, pause e stop já tradicionais? Então, eu fui no [MaterialDesignIcons](https://materialdesignicons.com/), um banco de ícones sensacional e baixei estes 3 ícones em formato _VectorDrawable_, que é uma espécie de SVG/XML que o Android entende e renderiza. É importante que ele seja um VectorDrawable para manter a qualidade, pois não sei qual a resolução da sua tela e esses Drawables mantém a qualidade, independente da sua resolução. Se você não sabe quais são os ícones, pode se orientar com a imagem abaixo.
 
 ![Ícones controladores](./controllers.png)
 
@@ -146,7 +148,7 @@ Os nossos botões servirão como respectivamente o play/pause e o botão stop, o
 Para implementar na sua activity, é só fazer como no exemplo abaixo:
 
 ```xml
-        <android.support.constraint.ConstraintLayout 
+        <android.support.constraint.ConstraintLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
@@ -205,7 +207,7 @@ Para implementar na sua activity, é só fazer como no exemplo abaixo:
                 app:layout_constraintTop_toBottomOf="@+id/animation_view"
                 app:layout_constraintVertical_bias="0.502"
                 app:srcCompat="@drawable/stop" />
-        
+
         </android.support.constraint.ConstraintLayout>
 
 ```
@@ -226,7 +228,6 @@ O primeiro passo disso tudo é atrelar nossos elementos de UI à lógica. A decl
 ```
 
 E depois a nossa view de animação do Lottie
-
 
 ```kotlin
     val animationView = findViewById<View>(R.id.animation_view) as LottieAnimationView
@@ -250,8 +251,7 @@ Depois, criamos os métodos de Pause e Delete da nossa aplicação, repare o qu�
 
 Explicando, chamamos a referência do nosso pauseButton, depois verificamos usando o método isAnimating, como nossa view já carrega a animação executando, nós iremos primeiro passar o método pauseAnimation que irá instantaneamente pausar a animação, depois só trocamos o drawable do botão, aquele mesmo que você baixou anteriormente. No caso de não estar animando, fazemos o inverso e continuamos a animação do frame em que parou.
 
-Para o botão de stop, o processo é mais simples ainda:  
-
+Para o botão de stop, o processo é mais simples ainda:
 
 ```kotlin
     stopButton.setOnClickListener{
@@ -300,10 +300,11 @@ A minha activity ficou assim:
                 animationView.setProgress(0F)
                 button_pause.setImageResource(R.drawable.play)
             }
-        
+
         }
     }
 ```
+
 Agora é só rodar e testar.
 
 E é assim, de forma simples e com cada detalhe explicado que temos o nosso primeiro app rodando uma animação com o Lottie.

@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Como Kotlin se tornou a nossa linguagem principal para Android"
-date:       2017-04-17 12:00:00
-author:     "Wellington Mitrut"
-tags:       Android, Kotlin, Traduções
-comments:   true
-featuredImage: "./top.png"
+layout: post
+title: 'Como Kotlin se tornou a nossa linguagem principal para Android'
+date: 2017-04-17 12:00:00
+author: 'Wellington Mitrut'
+tags: Android, Kotlin, Traduções
+comments: true
+featuredImage: ./top.png
 ---
 
 ![Capa](./top.png)
@@ -14,9 +14,9 @@ featuredImage: "./top.png"
 
 Alguns meses atrás nossa equipe resolveu tentar uma coisa nova: desenvolver uma aplicação comercial totalmente em Kotlin, uma nova linguagem de programação da JetBrains. Nós já haviamos tido uma experiência com Kotlin anteriormente, mas em uma escala muito menor: convertemos algumas partes de alguns aplicativos para essa nova linguagem ou então alguns projetinhos particulares. No entanto, o desenvolvimento de um aplicativo comercial em uma nova linguagem de programação tem alguns problemas a se considerar:
 
-* Nós estavamos muito acostumados com Java para Android. Mudar para Kotlin foi difícil, especialmente para desenvolvedores sem nenhuma experiência anterior com a tal programação funcional.
+- Nós estavamos muito acostumados com Java para Android. Mudar para Kotlin foi difícil, especialmente para desenvolvedores sem nenhuma experiência anterior com a tal programação funcional.
 
-* Algumas coisas simplesmente não funcionam. Dagger por exêmplo, não funcionou bem pra nós.
+- Algumas coisas simplesmente não funcionam. Dagger por exêmplo, não funcionou bem pra nós.
 
 Tudo isso poderia nos levar a perder prazos e a questões mais escabrosas sobre a estabilidade da aplicação.
 
@@ -53,7 +53,7 @@ O conceito de uma função pura (uma função que não tem efeitos colaterais) �
 Observe que como manipulamos os dados sem alterar o conteúdo.
 
 ```kotlin
-    fun flatTree(tree: TreeNode): List<TreeNode> 
+    fun flatTree(tree: TreeNode): List<TreeNode>
     =  listOf(tree, *tree.children.flatMap(::flatTree).toTypedArray())
 ```
 
@@ -99,7 +99,7 @@ Quando são introduzidos novos requisitos, o código se torna ilegível e incont
 
 ```kotlin
      private fun getNumberOfAttachmentsInGroupConvesationsFun() {
-    return getCount({conv -> conv.groupId != null}, 
+    return getCount({conv -> conv.groupId != null},
     {it -> it.type == MessageType.ATTACHMENT && it.unread})
   }
 
@@ -109,7 +109,7 @@ Quando são introduzidos novos requisitos, o código se torna ilegível e incont
 
   private fun getTotalNumberOfMessages() = getCount({true}, {true})
 
-  private fun getCount(convFilter: (Conversation) -> 
+  private fun getCount(convFilter: (Conversation) ->
   Boolean, messageFilter: (Message) -> Boolean) {
     datasource.getConversations()
         .filter(convFilter)
@@ -118,7 +118,8 @@ Quando são introduzidos novos requisitos, o código se torna ilegível e incont
         .fold(0, { count, message -> count + 1})
   }
 ```
-E podemos imaginar casos de uso onde gostaríamos de parametrizar o argumento da função *fold* para calcular o produto das mensagens não lidas.
+
+E podemos imaginar casos de uso onde gostaríamos de parametrizar o argumento da função _fold_ para calcular o produto das mensagens não lidas.
 
 Outro exemplo de uso de funções de alta-ordem é a substituição de vários Listeners por uma função alta-ordem simples:
 
@@ -130,16 +131,18 @@ Outro exemplo de uso de funções de alta-ordem é a substituição de vários L
     ... // in an activity far, far away
     billingView.billingChangeListener { updateUI() }
 ```
+
 #### 3. Imutabilidade
+
 A imutabilidade torna mais fácil escrever, usar e raciocinar sobre o código (classes são estabelecidas uma vez e, em seguida, inalteradas).
 
-O estado interno dos componentes da sua aplicação será mais consistente. Kotlin reforça a imutabilidade introduzindo *val* , bem como as collections do Kotlin, que são imutáveis por padrão.
+O estado interno dos componentes da sua aplicação será mais consistente. Kotlin reforça a imutabilidade introduzindo _val_ , bem como as collections do Kotlin, que são imutáveis por padrão.
 
-Uma vez que o *val* ou uma collection é inicializada, você pode ter certeza sobre sua validade. Veja um exêmplo para uma definição mais precisa de *val*:
+Uma vez que o _val_ ou uma collection é inicializada, você pode ter certeza sobre sua validade. Veja um exêmplo para uma definição mais precisa de _val_:
 
 ```kotlin
     data class Address(val line1: String, val city: String)
-    val items = listOf(Address("242 5th St", "Los Angeles"),  
+    val items = listOf(Address("242 5th St", "Los Angeles"),
     Address("Dovzhenka St. 5", "Kiev"))
 ```
 
@@ -153,12 +156,13 @@ Resultado? Quase sem NullPointerExceptions.
 
 ```kotlin
     brand?.let { badge.enabled = brand.isNewBadge }
-    // também pode ser escrito assim: 
+    // também pode ser escrito assim:
     badge.enabled = brand?.isNewBadge?:false
 ```
+
 #### Anko
 
-Anko DSL é uma grande biblioteca que simplifica significativamente o trabalho com views, threads e ciclo de vida de activities do android. <a href="https://github.com/Kotlin/anko" target="_blank">A descrição no Github</a> afirma que Anko é *“Desenvolvimento de aplicativos Android agradável”* e realmente provou ser assim mesmo.
+Anko DSL é uma grande biblioteca que simplifica significativamente o trabalho com views, threads e ciclo de vida de activities do android. <a href="https://github.com/Kotlin/anko" target="\_blank">A descrição no Github</a> afirma que Anko é _“Desenvolvimento de aplicativos Android agradável”_ e realmente provou ser assim mesmo.
 
 ```kotlin
     selector(items = listOf("Like", "Dislike") {
@@ -167,7 +171,7 @@ Anko DSL é uma grande biblioteca que simplifica significativamente o trabalho c
         else -> if (!disLiked) disLikePost()
         }
     }
-            
+
     doAsync {
         // Long background task
         uiThread {
@@ -178,10 +182,10 @@ Anko DSL é uma grande biblioteca que simplifica significativamente o trabalho c
         }
     }
 ```
+
 Observe que quando o uiThread é chamado dentro da activity, o bloco não será executado se isFinishing fortrue. Nós não usamos esse recurso pois o RxJava lida com todos os threading em nossos aplicativos, mas é algo válido de se lembrar.
 
 Usando Anko ao invés de XML. Embora Anko não esteja pronto para substituir a build padrão da UI do android,às vezes pode ser muito útil.
-
 
 ```kotlin
     verticalLayout() {
@@ -205,6 +209,7 @@ Usando Anko ao invés de XML. Embora Anko não esteja pronto para substituir a b
         }
     }
 ```
+
 Como você pode ver, Anko DSL permite que você use custom views junto com as views padrões do Android. Isto é uma grande vantagem sobre XML padrão.
 
 #### Kotlin Android extensions: Removendo a necessidade de usar ButterKnife
@@ -268,14 +273,13 @@ Como você pode ver, Anko DSL permite que você use custom views junto com as vi
     protected EditText dummyView;
 ```
 
-Ainda entediado? Então acho que você desceu aqui sem ler o artigo. 
+Ainda entediado? Então acho que você desceu aqui sem ler o artigo.
 
 Em Kotlin, você não precisa de nada disso. Você pode fazer referência à sua propriedade de exibição pelo seu parâmetro @ id , essas propriedades teriam o mesmo nome declarado em seu arquivo XML. Mais informações podem ser encontradas direro na <a href="https://kotlinlang.org/docs/tutorials/android-plugin.html" target="_blank" >documentação oficial.</a>
 
 ### Outras funcionalidades interessantes
 
 #### Extension functions & Construtores
-
 
 ```kotlin
     items = StoreInfo().apply { storeItems = fetchItems() }.let { manager.process(it) }
@@ -291,7 +295,7 @@ Em Kotlin, você não precisa de nada disso. Você pode fazer referência à sua
     }
 ```
 
-*apply*, *let* e *extension functions* podem ser facilmente usadas para criar construtores elegantes.
+_apply_, _let_ e _extension functions_ podem ser facilmente usadas para criar construtores elegantes.
 
 ### 2. Uma dica para os Padawans
 

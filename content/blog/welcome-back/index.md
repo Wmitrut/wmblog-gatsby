@@ -1,13 +1,12 @@
 ---
-layout:     post
-title:      "Bem-Vindos novamente ao show que nunca termina"
-date:       2019-03-02 12:00:00
-author:     "Wellington Mitrut"
-tags:       Meta, Comunidade, Blog, Javascript, Typescript
-comments:   true
-featuredImage: "./elp.jpg"
+layout: post
+title: 'Bem-Vindos novamente ao show que nunca termina'
+date: 2019-03-02 12:00:00
+author: 'Wellington Mitrut'
+tags: Meta, Comunidade, Blog, Javascript, Typescript
+comments: true
+featuredImage: ./elp.jpg
 ---
-
 
 ![Emerson, Lake & Palmer](./elp.jpg)
 
@@ -23,7 +22,7 @@ Um dos fatores que me deixaram fora da escrita por um certo tempo é a parte psi
 
 Meu primeiro princípio ao escrever um post é de compartilhar conhecimento, isso me foi ensinado desde o primeiro dia em que sentei numa sala com o [Jonatas Paganini](https://ideia.me/) lá em 2013, de lá para ca o blog teve pelo menos 3 vidas. Esta que você acessa provavelmente é a quarta. Os posts sempre estiveram acessíveis para quem quisesse ler, comentar, contestar. A primeira e a segunda vida deles foram no github pages, a terceira foi no [Medium](https://medium.com/blog-do-mitrut) e é aqui que nossa história começa.
 
-O Medium era um lugar lindo onde o design e a interação eram incríveis, não tinhamos propagandas e o foco era o conteúdo. Um dia o Medium precisou se pagar e começou a cobrar uma área de membros, quem quisesse monetizar um texto podia o fazer e (eu não sei até que ponto isso seria viável) ganhar um dinheiro com isso. 
+O Medium era um lugar lindo onde o design e a interação eram incríveis, não tinhamos propagandas e o foco era o conteúdo. Um dia o Medium precisou se pagar e começou a cobrar uma área de membros, quem quisesse monetizar um texto podia o fazer e (eu não sei até que ponto isso seria viável) ganhar um dinheiro com isso.
 
 Nada de errado com isso até por que toda startup precisa ganhar dinheiro e a gente publicava lá de graça, só que as coisas começaram a ficar esquisitas.
 
@@ -37,7 +36,7 @@ Eu não estava na área de membros fazendo um trial, eu não sou usuário premiu
 
 O primeiro passo foi encontrar uma maneira rápida de criar um site estático e limpo, como estou estudando React diariamente o [GatsbyJS](https://www.gatsbyjs.org/) me pareceu a maneira mais sensata de começar essa nova etapa, usei o [Gatsby Starter Blog](https://github.com/gatsbyjs/gatsby-starter-blog), dei uma personalizada de leve e passei para a segunda e mais morosa etapa: migrar os posts para markdown. Os posts mais antigos, da epoca que usava Jekyll foram faceis, alguns ajustes nas pastas, no markdown dos textos e eles já estavam prontos, o que deu trabalho foi o Medium e lá se foi meu janeiro/2019.
 
-### 2nd Impression 
+### 2nd Impression
 
 Minha experiencia com React foi no começo não das melhores - trabalhei numa empresa onde as coisas eram assim por que eram assim e eu me sentia bem perdido - mas desde final de 2017 eu tenho me rendido mais e mais a experiência e entendido melhor como o React funciona, o que fez com que me apaixonasse pela biblioteca.
 
@@ -66,7 +65,7 @@ E o futuro do blog? Bom, eu me empolguei quanto a recriar essa experiência e de
 - **Paginação**: carregar menos posts por vez, o que deixaria o site mais rápido ainda
 - **Busca**: Você poderá buscar por um post específico ou termo.
 
-e coisas menores que talvez faça: 
+e coisas menores que talvez faça:
 
 - **Notificações**: Sempre que um post novo for criado você receberá uma notificação no celular
 - **Newsletter**: Com links legais que achei durante a semana, podcasts, projetos do github e afins.

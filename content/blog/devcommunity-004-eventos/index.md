@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Dev & Community Cast — Comunidade #003: Guia rápido de organização de eventos — Parte 01"
-date:       2016-12-21 12:00:00
-author:     "Wellington Mitrut"
-tags:       Podcast, Dev & Community Cast, Comunidade
-comments:   true
-featuredImage: "./capa.png"
+layout: post
+title: 'Dev & Community Cast — Comunidade #003: Guia rápido de organização de eventos — Parte 01'
+date: 2016-12-21 12:00:00
+author: 'Wellington Mitrut'
+tags: Podcast, Dev & Community Cast, Comunidade
+comments: true
+featuredImage: ./capa.png
 ---
 
 ![Capa](./capa.png)

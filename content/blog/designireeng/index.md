@@ -1,16 +1,14 @@
 ---
-layout:     post
-title:      "Desingineering: Por que eu programo?"
-date:       2017-11-26 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, Filosofia, Traduções, Programação
-comments:   true
-featuredImage: "./designdeveloper.gif"
+layout: post
+title: 'Desingineering: Por que eu programo?'
+date: 2017-11-26 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, Filosofia, Traduções, Programação
+comments: true
+featuredImage: ./designdeveloper.gif
 ---
 
-
 > Este é um texto traduzido e adaptado de [Desingineering: Why I Code](http://jon.gold/2011/12/why-i-code/) do [Jon Gold](https://medium.com/@jongold) do AirBnb, me identifiquei demais com a ideia e achei interessante que vocês também lessem, para facilitar eu traduzi e trouxe um pouco do meu contexto do dia a dia.
-
 
 ![Desginer vs Developer](./designdeveloper.gif)
 

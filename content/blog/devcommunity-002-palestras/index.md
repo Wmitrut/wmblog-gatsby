@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Dev & Community Cast — Comunidade #002: Faça uma boa palestra."
-date:       2016-11-29 12:00:00
-author:     "Wellington Mitrut"
-tags:       Podcast, Dev & Community Cast, Comunidade
-comments:   true
-featuredImage: "./capa.png"
+layout: post
+title: 'Dev & Community Cast — Comunidade #002: Faça uma boa palestra.'
+date: 2016-11-29 12:00:00
+author: 'Wellington Mitrut'
+tags: Podcast, Dev & Community Cast, Comunidade
+comments: true
+featuredImage: ./capa.png
 ---
 
 ![Capa](./capa.png)
@@ -17,7 +17,6 @@ E para ajudar você a fazer uma boa palestra, nesse episódio, Neto Marin e Alê
 <a href="http://devcommunitycast.com.br/devcommunitycast-comunidade-002-faca-uma-boa-palestra/" target="_blank">OUÇA AQUI</a>
 
 Visite nossa nova página no Facebook: <a href="http://www.facebook.com/devcommunitycast" target="_blank">facebook.com/devcommunitycast</a> e siga nosso perfil no Twitter: <a href="http://www.twitter.com/devcommunitybr" target="_blank">@devcommunitybr</a>.
-
 
 Participantes: Neto Marin (<a href="https://twitter.com/netomarin" target="_blank">@netomarin</a>) e Alê Borba (<a href="https://twitter.com/ale_borba" target="_blank">@ale_borba</a>)
 
@@ -41,7 +40,6 @@ Edição de Neto Marin
 - <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJCljbqWadE1AbnWRdqBHiQ" target="_blank">Public Speaking Pro Tips (playlist de videos)</a>
 - <a href="http://www.heidiwaterhouse.com/2016/06/19/how-to-write-a-lightning-talk/" target="_blank">How to write a lightning talk</a>
 - <a href="https://www.techsmith.com/camtasia.html" target="_blank">Camtasia</a>
-
 
 **Música de introdução e encerramento:**
 Motherlode Kevin MacLeod (incompetech.com)

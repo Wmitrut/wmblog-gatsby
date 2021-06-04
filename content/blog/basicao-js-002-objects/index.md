@@ -1,20 +1,18 @@
 ---
-layout:     post
-title:      "#002 Basicão do JS: Tipos de dados em Javascript - parte 2: Objects"
-date:       2020-05-25 12:00:00
-author:     "Wellington Mitrut"
-tags:       Javascript, Community, Basicão do Javascript
-comments:   true
-featuredImage: "./001.jpg"
+layout: post
+title: '#002 Basicão do JS: Tipos de dados em Javascript - parte 2: Objects'
+date: 2020-05-25 12:00:00
+author: 'Wellington Mitrut'
+tags: Javascript, Community, Basicão do Javascript
+comments: true
+featuredImage: ./001.jpg
 ---
 
-
 ![Foto de um fusca amarelo](./001.jpg)
-> Photo by Moises Alex -  [@arnok](https://unsplash.com/@arnok) peguei lá no Unsplash
+
+> Photo by Moises Alex - [@arnok](https://unsplash.com/@arnok) peguei lá no Unsplash
 
 Semana passada (ou alguns dias mais) eu falei aqui sobre os primitivos básicos de JS, se você não leu, é essencial que dê uma conferida antes de prosseguir nesse artigo pois lá cobrimos as propriedades essenciais para começar a entender estruturas de dados em JS, você pode acessar clicando no link abaixo.
-
- 
 
 [#001 Basicão do JS: Tipos de dados em Javascript - parte 1: Primitivos](https://blog.wmitrut.com/basicao-js-001-primitives/)
 
@@ -26,7 +24,7 @@ Agradecimento feito, vamos manter as tradições e colocar pra tocar o novo álb
 
 ### Objetos
 
-Se você está começando agora e não tem noção alguma do que seja, talvez você olhe e pense: <i>"Bom, objetos são coisas que estão ao nosso redor e inanimadas"</i>. De certo modo você está certo, a abstração pro conceito de objeto em programação passa por esse caminho. 
+Se você está começando agora e não tem noção alguma do que seja, talvez você olhe e pense: <i>"Bom, objetos são coisas que estão ao nosso redor e inanimadas"</i>. De certo modo você está certo, a abstração pro conceito de objeto em programação passa por esse caminho.
 
 Na sua mão muito provavelmente você está segurando um objeto enquanto lê esse artigo, e o que esse objeto tem? Atributos: Marca, cor, tamanho, memória, versão do sistema e assim por diante.
 
@@ -48,11 +46,11 @@ Em outras palavras, o fusca(e qualquer outro carro) pode ser abstraído como um 
 
 ![Objeto fusca](002.png)
 
-Só que no nosso caso, ao invés de atributos físicos, temos atributos como os primitivos que citamos no artigo anterior: strings, booleans e numbers. Isto posto, podemos dizer que um objeto é uma *coleção* de valores. Uma notação de chave (key) e valor (value).
+Só que no nosso caso, ao invés de atributos físicos, temos atributos como os primitivos que citamos no artigo anterior: strings, booleans e numbers. Isto posto, podemos dizer que um objeto é uma _coleção_ de valores. Uma notação de chave (key) e valor (value).
 
 ![Chave  eValor](003.png)
 
-Simples né? Então tendo um objeto *carro* eu consigo acessar seus valores como abaixo
+Simples né? Então tendo um objeto _carro_ eu consigo acessar seus valores como abaixo
 
 ![004.png](004.png)
 
@@ -60,7 +58,7 @@ Simples né? Então tendo um objeto *carro* eu consigo acessar seus valores como
 
 "Então, quer dizer que se eu usar . e [ ] chamando a propriedade é a mesma coisa?"
 
-*Sim. Mas nem sempre.* Se acostume que essa é a máxima de JS.
+_Sim. Mas nem sempre._ Se acostume que essa é a máxima de JS.
 
 ![Notação com atributos de objetos.png](005.png)
 
@@ -116,11 +114,9 @@ Não por menos, abaixo seguem alguns links, como sempre:
 
 ▶ 🔗 Se você é da região de Curitiba ou São Paulo e tá desempregado, a galera do Boticário ta contratando devs:
 
-<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Vagas citadas pelo <a href="https://twitter.com/fabiorogeriosj?ref_src=twsrc%5Etfw">@fabiorogeriosj</a> para SP e Curitiba:<br><br>👉Front End Developer <a href="https://t.co/Ta7Hx3mKrW">https://t.co/Ta7Hx3mKrW</a><br>👉Back End Developer <a href="https://t.co/kIa9O5YMZy">https://t.co/kIa9O5YMZy</a><br>👉Back End Developer Sr. (Integração)<a href="https://t.co/B4RzIT84Ju">https://t.co/B4RzIT84Ju</a><br><br>Por favor compartilhe com RT para q essas vagas cheguem a mais pessoas</p>&mdash; Senhora Capivara (@capiconf) <a href="https://twitter.com/capiconf/status/1263164088634523649?ref_src=twsrc%5Etfw">May 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-----------
+## <blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Vagas citadas pelo <a href="https://twitter.com/fabiorogeriosj?ref_src=twsrc%5Etfw">@fabiorogeriosj</a> para SP e Curitiba:<br><br>👉Front End Developer <a href="https://t.co/Ta7Hx3mKrW">https://t.co/Ta7Hx3mKrW</a><br>👉Back End Developer <a href="https://t.co/kIa9O5YMZy">https://t.co/kIa9O5YMZy</a><br>👉Back End Developer Sr. (Integração)<a href="https://t.co/B4RzIT84Ju">https://t.co/B4RzIT84Ju</a><br><br>Por favor compartilhe com RT para q essas vagas cheguem a mais pessoas</p>&mdash; Senhora Capivara (@capiconf) <a href="https://twitter.com/capiconf/status/1263164088634523649?ref_src=twsrc%5Etfw">May 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ▶ 🔗Acompanhe as lives do [POKEMÃO](https://www.twitch.tv/pokemaobr)!
-
 
 ## **E mais**
 

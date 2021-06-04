@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Suas UIs animadas com Lottie"
-date:       2017-12-03 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, Android, Lottie, Libs
-comments:   true
-featuredImage: "./oldman.gif"
+layout: post
+title: 'Suas UIs animadas com Lottie'
+date: 2017-12-03 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, Android, Lottie, Libs
+comments: true
+featuredImage: ./oldman.gif
 ---
 
 ![Old man](./oldman.gif)
@@ -20,7 +20,7 @@ Quando se fala em UI, o desafio é igualmente grande quando falamos em animaçõ
 
 **2. Fazer as animações de forma nativa, no braço.**
 
-No primeiro caso as animações perdiam qualidade, não se podia controlar de forma eficiente os eventos para dispará-las, teríamos que criar um arquivo diferente para cada resolução. Na segunda opção, o trabalho seria de criar um código ***macarrônico***, de difícil manutenção, que seria facilmente quebrado e quase sempre não-performático.
+No primeiro caso as animações perdiam qualidade, não se podia controlar de forma eficiente os eventos para dispará-las, teríamos que criar um arquivo diferente para cada resolução. Na segunda opção, o trabalho seria de criar um código **_macarrônico_**, de difícil manutenção, que seria facilmente quebrado e quase sempre não-performático.
 
 ### O Lottie entra em campo para mudar o jogo
 
@@ -42,7 +42,7 @@ Outro recurso que achei muito interessante é o de você poder mesclar animaçõ
 
 Os próprios criadores declararam:
 
-> *"Nosso objetivo é suportar tantos recursos de animação do After Effects quanto for possível, para permitir muito mais do que simplemente animar ícones. Nós criamos vários exemplos para mostrar a flexibilidade, a riqueza e o conjunto de recursos profundos da biblioteca."*
+> _"Nosso objetivo é suportar tantos recursos de animação do After Effects quanto for possível, para permitir muito mais do que simplemente animar ícones. Nós criamos vários exemplos para mostrar a flexibilidade, a riqueza e o conjunto de recursos profundos da biblioteca."_
 
 Ou seja, aquela animação maluca que o motion designer fez tem grandes chances de estar na aplicação sem que você tenha que invocar um demônio gargantual lovecraftiano.
 

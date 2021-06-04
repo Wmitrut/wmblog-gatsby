@@ -1,19 +1,19 @@
 ---
-layout:     post
-title:      "10 Coisas que aprendi com REWORK (David Heinemeier Hansson e Jason Fried) - PARTE 2."
-subtitle:   "Mais 05 pequenas lições que me fizeram não enlouquecer neste mundo de startups."
-date:       2015-08-04 12:00:00
-header-img: "img/posts/other/show.jpg"
-author:     "Wellington Mitrut"
-comments:   true
-featuredImage: "./jamieoliver.jpg"
+layout: post
+title: '10 Coisas que aprendi com REWORK (David Heinemeier Hansson e Jason Fried) - PARTE 2.'
+subtitle: 'Mais 05 pequenas lições que me fizeram não enlouquecer neste mundo de startups.'
+date: 2015-08-04 12:00:00
+header-img: 'img/posts/other/show.jpg'
+author: 'Wellington Mitrut'
+comments: true
+featuredImage: ./jamieoliver.jpg
 ---
 
 Olá pessoal! Estamos aqui com o segundo post sobre o livro REWORK, do pessoal da antiga 37Signals (hoje conhecida como Basecamp), que criou o framework Ruby On Rails. Durante a semana algumas pessoas me pediram mais sobre o livro e como achá-lo aqui no Brasil. Pois bem, aqui ele saiu com o nome de 'Reinvente sua empresa', pela editora Sextante e é bem fácil de encontrar nas diversas lojas online do ramo.
 
 ![Capa do Livro](./reinvente.jpg)
 
-Mas chega de enrolação por aqui. Vamos direto ao assunto, as últimas 5 lições que aprendi neste livro, caso não tenha visto a parte um, <a href="http://wmitrut.github.io/2015/07/28/rework-1/">clique aqui</a> 
+Mas chega de enrolação por aqui. Vamos direto ao assunto, as últimas 5 lições que aprendi neste livro, caso não tenha visto a parte um, <a href="http://wmitrut.github.io/2015/07/28/rework-1/">clique aqui</a>
 
 ## 06 - Desligue suas notificações
 
@@ -39,8 +39,8 @@ Você vai errar, você vai acertar, você vai aprender. Mas enquanto você ficar
 
 Construa um público. Ensine mais que a concorrência. Siga o exemplo do chef de cozinha. Publique seus segredos. Mostre os bastidores. O Jamie Oliver é quem é pois ensina seus segredos! E mesmo assim é o chefe mais badalado do mundo.
 
-
 ![Jamie Oliver](./jamieoliver.jpg)
+
 > Os chefs de cozinha estão bem presentes nos nossos posts não é?
 
 Sempre compartilhe conhecimento com a sua audiência, tweets, blog, faça o que for necessário para manter o compartilhamento de informações e ensinar-lhes algo. Lembre-se, as pessoas pensam que é um desperdício de tempo ensinar e ninguém mais faz isso. É, portanto, formar um vínculo e construir a confiança com seus consumidores.
@@ -55,4 +55,4 @@ Convide o mínimo de pessoas possível, e tenha uma agenda clara, um assunto bem
 
 <hr>
 
-*Estamos oferecendo no dia 15/08 um workshop de Introdução ao design de interfaces clique <a href="http://migre.me/qXpW4">AQUI</a> para detalhes e inscrição.*
+_Estamos oferecendo no dia 15/08 um workshop de Introdução ao design de interfaces clique <a href="http://migre.me/qXpW4">AQUI</a> para detalhes e inscrição._

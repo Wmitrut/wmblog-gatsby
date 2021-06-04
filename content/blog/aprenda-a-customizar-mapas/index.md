@@ -1,18 +1,18 @@
 ---
-layout:     post
-title:      "Aprenda a customizar mapas na sua aplicação Android com um pé nas costas"
-date:       2017-05-08 12:00:00
-author:     "Wellington Mitrut"
-tags:       Android, Google Maps, Design
-comments:   true
-featuredImage: "./capa.png"
+layout: post
+title: 'Aprenda a customizar mapas na sua aplicação Android com um pé nas costas'
+date: 2017-05-08 12:00:00
+author: 'Wellington Mitrut'
+tags: Android, Google Maps, Design
+comments: true
+featuredImage: ./capa.png
 ---
 
 ![Capa](./capa.png)
 
 > Esse artigo é uma transcrição de uma palestra que dei no GDG Cascavel e no GDG Pato Branco, adaptada na forma de artigo. Você tem total autorização para replicar. Seguem também os slides, link do github para você baixar e brincar um pouco, assim como link do hangout que fiz sobre o assunto. Agradecimentos especiais ao [Walmyr Carvalho](https://medium.com/@walmyrcarvalho) que foi com quem vi o assunto pela primeira vez e ao [Everton Bortolini](https://twitter.com/eTonBortolini), amigo de longa data que contribui com curiosidades sobre cartografia.
 
-Mapas, acho que existem poucas pessoas senão nenhuma que não tenha tido contato com esse tipo de ‘tecnologia’. Segundo a [wikipedia](https://en.wikipedia.org/wiki/Map), um mapa é *“uma representação simbólica enfatizando as relações entre elementos de algum espaço, como objetos, regiões ou temas.”*, ou seja, um mapa é uma representação gráfica de uma região.
+Mapas, acho que existem poucas pessoas senão nenhuma que não tenha tido contato com esse tipo de ‘tecnologia’. Segundo a [wikipedia](https://en.wikipedia.org/wiki/Map), um mapa é _“uma representação simbólica enfatizando as relações entre elementos de algum espaço, como objetos, regiões ou temas.”_, ou seja, um mapa é uma representação gráfica de uma região.
 
 Segundo o Engenheiro Cartógrafo Everton Bortolini, a [ICACI](http://icaci.org/mission/) (International Cartography Association) tem as seguintes definições para mapas e cartografia:
 
@@ -31,6 +31,7 @@ Um dos mapas mais antigos que se tem notícia, ainda segundo Bortolini, é o [Be
 Não é errado dizer que os primeiros UX designers foram os cartógrafos da idade média, eles tinham um trabalho hercúleo de pesquisa, cálculos, levantamento de dados e se ocorresse de criarem um design ruim ou que não entregasse aquilo que seus usuários pudessem entender… bem, seria uma User experience muitas vezes literalmente desastrosa.
 
 ![Representação do retrato de Mercator](./mercator.png)
+
 > Mercator, utilizando o Sketch ou o Figma da idade média.
 
 Mas onde diretamente isto vem a ter uma intersecção com o nosso assunto de hoje? Bem, justamente a entrega de uma experiência decente com mapas em nossas aplicações pode se tornar o nosso diferencial.
@@ -38,6 +39,7 @@ Mas onde diretamente isto vem a ter uma intersecção com o nosso assunto de hoj
 É necessário se pensar além do branding quando vamos personalizar um mapa. Um mapa mal projetado, sem informações ou então com informações erradas pode custar muito para o seu usuário, as vezes [mais do que você pode imaginar](http://g1.globo.com/rio-de-janeiro/noticia/2015/10/mulher-morre-apos-entrar-por-engano-em-comunidade-em-niteroi-rj.html).
 
 ![Mulher morre após casal entrar por engano em comunidade em Niterói](./noticia.png)
+
 > Fonte: G1
 
 Então bora aprender como se personaliza um mapa no android de forma simples e sem precisar perder a dignidade?
@@ -59,7 +61,7 @@ Bom, a única ajuda externa que você vai precisar é talvez o [Google Maps Styl
 
 ### Criando a nossa aplicação
 
->Caso você não queira passar por tudo isso, você pode clonar um projeto demo que fiz lá no meu Github, os passos são praticamentes os mesmos.
+> Caso você não queira passar por tudo isso, você pode clonar um projeto demo que fiz lá no meu Github, os passos são praticamentes os mesmos.
 
 #### 1 — Crie um projeto novo no Android Studio com o template de mapas
 
@@ -85,7 +87,7 @@ Agora vem a parte legal e extremamente simples da nossa implementação. É onde
 
 #### 1 — Primeiro de tudo, crie uma pasta raw
 
-Lá dentro de sua pasta res crie uma nova pasta vazia chamada *raw*. Dentro desta pasta raw coloque o arquivo JSON que você personalizou e baixou no Map Wizard.
+Lá dentro de sua pasta res crie uma nova pasta vazia chamada _raw_. Dentro desta pasta raw coloque o arquivo JSON que você personalizou e baixou no Map Wizard.
 
 ![Pasta RAW](./raw.png)
 
@@ -165,9 +167,10 @@ E no java:
 
 Note o primeiramente que a API do maps provê uma classe chamada **onMapReady**, no caso, ela irá executar o código assim que o mapa estiver carregado em nossa view.
 
-Para carregar o estilo eu abri um *try-catch* onde seto a situação de aplicação do estilo. No caso, se o estilo for carregado, eu apenas seto ele no meu mapa, senão, eu informo o erro que ocorreu no console. As configurações e chamadas seguintes são relativas ao que já falamos de ponto no mapa e zoom.
+Para carregar o estilo eu abri um _try-catch_ onde seto a situação de aplicação do estilo. No caso, se o estilo for carregado, eu apenas seto ele no meu mapa, senão, eu informo o erro que ocorreu no console. As configurações e chamadas seguintes são relativas ao que já falamos de ponto no mapa e zoom.
 
 #### 4 — Rode a aplicação
+
 Se tudo ocorrer bem, pronto — você tem uma aplicação demonstrativa com um mapa personalizad, agora você pode agregar mais valor ainda ao seu aplicativo com um mapa que possua a sua branding e um design único como os grandes players.
 
 > [ UPDATE ] Se você baixar o projeto do GitHub ele vai resultar em algo mais ou menos assim:
@@ -175,7 +178,6 @@ Se tudo ocorrer bem, pronto — você tem uma aplicação demonstrativa com 
 ![Aplicativo rodando](./app.jpeg)
 
 Caso você se interesse, este post é também uma palestra que fiz, os slides podem ser vistos [aqui](https://speakerdeck.com/wmitrut/customizacao-de-mapas-no-android).
-
 
 E um hangout que fizemos com o #GDGPATOBRANCO no dia 16 de Março de 2017 pode ser conferido aqui:
 
