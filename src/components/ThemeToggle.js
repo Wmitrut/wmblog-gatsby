@@ -11,7 +11,7 @@ class ThemeToggle extends React.Component {
             <input
               type="checkbox"
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-              checked={theme === 'light'}
+              checked={theme === 'dark'}
             />
              <div class="inner">
              {theme === 'dark' ? <p className="oni">👹</p> : <p className="angel">😇</p>}
