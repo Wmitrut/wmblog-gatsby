@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Por que devemos desenvolver para SmartWatches?"
-date:       2016-02-23 12:00:00
-author:     "Wellington Mitrut"
-tags:       Android, UX
-comments:   true
-featuredImage: "./pulse/jpeg"
+layout: post
+title: 'Por que devemos desenvolver para SmartWatches?'
+date: 2016-02-23 12:00:00
+author: 'Wellington Mitrut'
+tags: Android, UX
+comments: true
+featuredImage: ./pulse/jpeg
 ---
 
 A internet e as interações estão saindo das telas e ganhando as ruas, para nos garantir uma boa interação e praticidade é necessário começar a pensar JÁ nas interações com wearables.
@@ -18,10 +18,9 @@ Como você sabe se vai chover amanhã? Como você faz um check-in no Swarm para 
 
 É comum pensar que a resposta geral destas perguntas é tirar seu smartphone do bolso para abrir um aplicativo e procurar seja lá o que for. Mas é este mesmo o jeito mais simples? E aqui vai mais uma pergunta:
 
->  Qual seria a forma mais simples de você ver a hora?
+> Qual seria a forma mais simples de você ver a hora?
 
 Certamente você diria que olha para o relógio e vê logicamente que horas são. Mas e se você pudesse tomar todas as ações que imaginou ao ler as perguntas acima em menos tempo? Se pudesse não precisar tirar o smartphone do bolso a toda hora? Qual é a maneira mais fácil?
-
 
 ![Watchfaces](./watchfaces.jpeg)
 Exêmplo de uso prático do app Hangouts para Android Wear.
@@ -54,7 +53,7 @@ interações rápidas, ações livres de distração, gestos intuitivos: estes s
 
 ![Android com Watch](./android.jpeg)
 
------
+---
 
 #### Conclusões:
 

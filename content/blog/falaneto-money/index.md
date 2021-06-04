@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Faaala, Neto! #010 — Criando para Bilhões: Monetização"
-date:       2016-12-09 12:00:00
-author:     "Wellington Mitrut"
-tags:       Podcast, Dev & Community Cast, Comunidade
-comments:   true
-featuredImage: "./episode.png"
+layout: post
+title: 'Faaala, Neto! #010 — Criando para Bilhões: Monetização'
+date: 2016-12-09 12:00:00
+author: 'Wellington Mitrut'
+tags: Podcast, Dev & Community Cast, Comunidade
+comments: true
+featuredImage: ./episode.png
 ---
+
 ![Capa](./episode.png)
 
 Em mercados emergentes, como Brasil, México e Índia os usuário são muito sensíveis ao preço e tem certa resistência em gastar dinheiro com bens “não tangíveis”, como aplicativos. Para melhorar a monetização nesses mercados, você pode fazer alguns ajustes que podem ajudar a performance do seu aplicativo.
@@ -16,7 +17,6 @@ Nesse episódio, Neto Marin fala sobre o perfil do consumidor, como diminuir a b
 <a href="http://devcommunitycast.com.br/devcommunitycast-comunidade-002-faca-uma-boa-palestra/" target="_blank">OUÇA AQUI</a>
 
 Visite nossa nova página no Facebook: <a href="http://www.facebook.com/devcommunitycast" target="_blank">facebook.com/devcommunitycast</a> e siga nosso perfil no Twitter: <a href="http://www.twitter.com/devcommunitybr" target="_blank">@devcommunitybr</a>.
-
 
 Participantes: Neto Marin (<a href="https://twitter.com/netomarin" target="_blank">@netomarin</a>)
 

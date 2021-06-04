@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "I Can’t Believe It’s not NATIVE! — Parte 3 - LIGHTHOUSE"
-date:       2019-03-08 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, PWA, Mobile, Javascript, Performance, Lighthouse
-comments:   true
-featuredImage: "./lighthouse_photo.jpg"
+layout: post
+title: 'I Can’t Believe It’s not NATIVE! — Parte 3 - LIGHTHOUSE'
+date: 2019-03-08 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, PWA, Mobile, Javascript, Performance, Lighthouse
+comments: true
+featuredImage: ./lighthouse_photo.jpg
 ---
 
 ![Foto de um farol por Adrien Tutin, obtida no Unsplash](./lighthouse_photo.jpg)
@@ -35,15 +35,16 @@ Uma mão na roda né?
 Tudo bem, estamos aqui pra isso. Este blog foi construido totalmente de olho no que ocorre no score do lighthouse dele - ou seja. Pensado para ter performance e um score alto. No [post anterior](https://blog.wmitrut.com/welcome-back/) eu mostrei o score básico e como este blog foi construido para ser um PWA:
 
 ![Resultados do Blog no Lighthouse](./results.png)
+
 > Resultados do Blog no Lighthouse
 
 ### Usando o lighthouse
 
 Partindo do princípio que você está utilizando o Google Chrome como navegador na versão 60+ desktop aperte:
 
-- *Windows/Linux*: F12 ou Ctrl+Shift+I
-- *MacOs*: Cmd + Option + I
-- *Todas*: Botão direito > inspecionar
+- _Windows/Linux_: F12 ou Ctrl+Shift+I
+- _MacOs_: Cmd + Option + I
+- _Todas_: Botão direito > inspecionar
 
 > Observação: O lighthouse só pode ser usado no desktop.
 
@@ -51,7 +52,7 @@ Isso vai abrir o seu Chrome Dev Tools. Procure pela aba Audits:
 
 ![Chrome Dev Tools](./cdt.png)
 
-Quando você abrir esta aba, ele já vai te mostrar o Lighthouse com todas as opções possíveis para serem auditadas, sendo elas: *Performance*, *Progressive Web App*, *Best Pratices*, *Accessibility* e *SEO* - sim, SEO, ele te ajuda desde como seu app está se comportando performaticamente até de como ele pode ser melhor indexado pelos buscadores.
+Quando você abrir esta aba, ele já vai te mostrar o Lighthouse com todas as opções possíveis para serem auditadas, sendo elas: _Performance_, _Progressive Web App_, _Best Pratices_, _Accessibility_ e _SEO_ - sim, SEO, ele te ajuda desde como seu app está se comportando performaticamente até de como ele pode ser melhor indexado pelos buscadores.
 
 ![A aba audits](./audits.png)
 
@@ -114,7 +115,8 @@ Depois de instalado você roda apenas
 ```javascript
     lighthouse <url>
 ```
-Sendo que <url> é o parâmetro da URL  a ser auditada. Existe uma série de flags que podem ser adicionadas como --verbose,  --output json e etc. para personalizar o report ao seu gosto.
+
+Sendo que <url> é o parâmetro da URL a ser auditada. Existe uma série de flags que podem ser adicionadas como --verbose, --output json e etc. para personalizar o report ao seu gosto.
 
 A [documentação](https://github.com/GoogleChrome/lighthouse#readme) é bem completa e vai te ajudar com tudo. Ele gerará um arquivo HTML com as mesmas informações que você vê no Audits do Chrome Dev Tools.
 
@@ -124,15 +126,16 @@ Abaixo um vídeo com mais detalhes de como usar o Lighthouse:
 
 <iframe width="1600" height="664" src="https://www.youtube.com/embed/UvK9zAsSM8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
------
+---
 
-### Enfim... 
+### Enfim...
 
 ![logo](./lighthouse-logo.png)
 
-Se você se importa com performance e você ***DEVE*** se importar, o lighthouse é uma ferramenta indispensável para se criar um bom PWA. Indico aqui dois posts para que você se aprofunde mais no assunto, um do [Addy Osmani](https://addyosmani.com/blog/shine-a-light-javascript-performance/) e outro  [post](https://willianjusten.com.br/medindo-performance-do-seu-site-com-lighthouse/) onde o William Justen também fala da experiência dele em melhorar o seu blog e ter um bom score no lighthouse.
+Se você se importa com performance e você **_DEVE_** se importar, o lighthouse é uma ferramenta indispensável para se criar um bom PWA. Indico aqui dois posts para que você se aprofunde mais no assunto, um do [Addy Osmani](https://addyosmani.com/blog/shine-a-light-javascript-performance/) e outro [post](https://willianjusten.com.br/medindo-performance-do-seu-site-com-lighthouse/) onde o William Justen também fala da experiência dele em melhorar o seu blog e ter um bom score no lighthouse.
 
 ---
+
 <div class="dicas">
 
 ![dicas](../../assets/tips_title.png)

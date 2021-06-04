@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "Dev & Community Cast — Mobile #004: Monetização na prática"
-date:       2016-12-15 12:00:00
-author:     "Wellington Mitrut"
-tags:       Podcast, Dev & Community Cast, Comunidade
-comments:   true
-featuredImage: "./capa.png"
+layout: post
+title: 'Dev & Community Cast — Mobile #004: Monetização na prática'
+date: 2016-12-15 12:00:00
+author: 'Wellington Mitrut'
+tags: Podcast, Dev & Community Cast, Comunidade
+comments: true
+featuredImage: ./capa.png
 ---
 
 ![Capa](./capa.png)
@@ -27,7 +27,6 @@ Se você usa o iTunes no seu computador, tablet ou smartphone, <a href="https://
 
 Contato:
 Se quiser entrar em contato, pode nos achar nas redes sociais acima ou envie seu e-mail para <a href="mailto:contato@devcommunitycast.com.br">contato@devcommunitycast.com.br</a>.
-
 
 Participantes: Neto Marin (<a href="https://twitter.com/netomarin" target="_blank">@netomarin</a>), Alexandre Tarifa (<a href="https://twitter.com/alexandretarifa" target="_blank">@alexandretarifa</a>) e Eduardo Cucharro (<a href="https://twitter.com/eduardocucharro" target="_blank">@eduardocucharro</a>)
 

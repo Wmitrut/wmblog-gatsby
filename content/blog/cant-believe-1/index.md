@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "I Can’t Believe It’s not NATIVE! — Parte 1"
-date:       2018-03-06 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, PWA, Mobile, Javascript
-comments:   true
-featuredImage: "./cant.png"
+layout: post
+title: 'I Can’t Believe It’s not NATIVE! — Parte 1'
+date: 2018-03-06 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, PWA, Mobile, Javascript
+comments: true
+featuredImage: ./cant.png
 ---
 
 ![I can`t believe it is not native](./cant.png)
@@ -55,7 +55,7 @@ Estes 3 são os principais (não os únicos fatores) que fazem a web ainda ter u
 
 Estes três problemas aumentam algo que quero que você guarde bem o nome: é a **CARGA COGNITIVA**.
 
-> O que então ***pode ser feito*** para melhorar a experiência da web no ***mobile***?
+> O que então **_pode ser feito_** para melhorar a experiência da web no **_mobile_**?
 
 Pois bem, no próximo texto iremos explorar 3 princípios que vão de encontro com o que vimos e deixar algumas dicas para que você faça um PWA incrível.
 

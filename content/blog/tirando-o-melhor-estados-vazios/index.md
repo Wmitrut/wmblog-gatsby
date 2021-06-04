@@ -1,16 +1,16 @@
 ---
-layout:     post
-title:      "Tirando o melhor dos estados vazios em um app."
-date:       2016-10-21 12:00:00
-author:     "Wellington Mitrut"
-tags:       UX, Mobile, Android, iOs, Design
-comments:   true
-featuredImage: "./sala.jpeg"
+layout: post
+title: 'Tirando o melhor dos estados vazios em um app.'
+date: 2016-10-21 12:00:00
+author: 'Wellington Mitrut'
+tags: UX, Mobile, Android, iOs, Design
+comments: true
+featuredImage: ./sala.jpeg
 ---
 
 ![Sala Vazia](./sala.jpeg)
 
->Não subestime a beleza de um estado vazio, mas saiba como deixar um bom espaço vazio!
+> Não subestime a beleza de um estado vazio, mas saiba como deixar um bom espaço vazio!
 
 A experiência de uso de um aplicativo é algo interessante de se projetar, muitas vezes nos focamos em pensar já na aplicação finalizada e cheia de dados providas pelo usuário sem ao menos lembrar em como vai ser a recepção deste mesmo em seu primeiro uso.
 
@@ -61,7 +61,7 @@ Os estados vazios são uma excelente oportunidade para fazer uma conexão humana
 
 Assim como como podemos ser <a href="http://fab404.com/" target="_blank">engraçadinhos e criativos com páginas 404</a>, estados vazios também são uma oportunidade pra esse tipo de situação.
 
-Aaron Walter, especialista em Design emocional fez uma associação com a pirâmide de Maslow que mostra hierarquia das necessidades humanas para uma explicação sobre o que torna a experiência do usuário de um aplicativo bem-sucedida; enquanto que a sua aplicação deve ser funcional, confiável e útil, ele também deve ser *prazerosa*.
+Aaron Walter, especialista em Design emocional fez uma associação com a pirâmide de Maslow que mostra hierarquia das necessidades humanas para uma explicação sobre o que torna a experiência do usuário de um aplicativo bem-sucedida; enquanto que a sua aplicação deve ser funcional, confiável e útil, ele também deve ser _prazerosa_.
 
 ![A pirâmide de Walter](./piramide.png)
 
@@ -77,7 +77,7 @@ Voltando as tópico de caixas de entrada, note algo interessante sobre os difere
 
 O tipo de sentimento seus estados vazios transmitem depende da finalidade do seu aplicativo. O Google Hangouts por exêmplo, fica triste e quer que você adicione conteúdo falando com alguém, enquanto Inbox foca em motivar você a ler todos os seus e-mails.
 
-Um dos aplicativos que trabalhei, o <a href="http://farmin.com.br/" target="_blank">Farmin</a>, incentiva o usuário a tomar uma ação de registro dependendo do contexto, a imagem abaixo mostra uma view vazia para adicionar o peso dos animais com um animal fazendo *‘carinha-de-cachorro-que-caiu-da-mudança’* (o animal também muda a imagem conforme o contexto do rebanho previamente configurado).
+Um dos aplicativos que trabalhei, o <a href="http://farmin.com.br/" target="_blank">Farmin</a>, incentiva o usuário a tomar uma ação de registro dependendo do contexto, a imagem abaixo mostra uma view vazia para adicionar o peso dos animais com um animal fazendo _‘carinha-de-cachorro-que-caiu-da-mudança’_ (o animal também muda a imagem conforme o contexto do rebanho previamente configurado).
 
 ![Estados vazios do Farmin](./farmin2.png)
 

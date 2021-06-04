@@ -1,14 +1,14 @@
 ---
-layout:     post
-title:      "Você deveria mesmo prestar mais atenção no Ionic"
-date:       2017-04-28 12:00:00
-author:     "Wellington Mitrut"
-tags:       Ionic, Web, Javascript, Typescript
-comments:   true
-featuredImage: "./zuck.png"
+layout: post
+title: 'Você deveria mesmo prestar mais atenção no Ionic'
+date: 2017-04-28 12:00:00
+author: 'Wellington Mitrut'
+tags: Ionic, Web, Javascript, Typescript
+comments: true
+featuredImage: ./zuck.png
 ---
 
-Vamos começar este texto sendo adultos e combinar duas coisas: a primeira é que não importa a tecnologia que ele é feito, aplicativo bom é aplicativo bom e aplicativo ruim é aplicativo ruim, seja ele feito com Javascript, C#, Swift, Java, Cobol, React , Lisp e seja lá o que for e a segunda é: **as pessoas estão pouco se f@#$% para a tecnologia que você utilizou pra fazer esse app, elas querem que ele funcione!**
+Vamos começar este texto sendo adultos e combinar duas coisas: a primeira é que não importa a tecnologia que ele é feito, aplicativo bom é aplicativo bom e aplicativo ruim é aplicativo ruim, seja ele feito com Javascript, C#, Swift, Java, Cobol, React , Lisp e seja lá o que for e a segunda é: **as pessoas estão pouco se f@#\$% para a tecnologia que você utilizou pra fazer esse app, elas querem que ele funcione!**
 
 > Isto posto, seguimos em frente.
 
@@ -48,7 +48,7 @@ Mas prosseguindo, uma coisa que pode ter gerado bastante preconceito foi uma [de
 
 ![Print do Techcrunch sobre declaração polêmica de Mark Zuckerberg](./zuck.png)
 
->Um pouco dramática esta posição, mas ok… ele tem toda liberdade.
+> Um pouco dramática esta posição, mas ok… ele tem toda liberdade.
 
 Bom, talvez para a estratégia do facebook isso seja correto, embora tenhamos hoje um boom de aplicativos da própria empresa feitos com tecnologias web e até mesmo um [framework](https://facebook.github.io/react-native/) disso. Talvez você não saiba mas o seu querido [Instagram](https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7) é um app feito em HTML, CSS e Javascript.
 
@@ -68,7 +68,7 @@ Nem que seja um pouquinho, nem que seja o mínimo, a maioria dos devs começou b
 
 ### 2 — Novamente, você possivelmente não será o novo facebook
 
-É uma verdade que tem que ser dita, as pessoas gostam de sonhar que vão ser o novo disruptivo, quebrador de paradigmas, magnânimo e proparoxítono empreendedor que criou o *“Uber para Xyz”*, mas é difícil que isso aconteça, e mesmo que aconteça, você tem que considerar algumas estatísticas dos aplicativos nativos atualmente:
+É uma verdade que tem que ser dita, as pessoas gostam de sonhar que vão ser o novo disruptivo, quebrador de paradigmas, magnânimo e proparoxítono empreendedor que criou o _“Uber para Xyz”_, mas é difícil que isso aconteça, e mesmo que aconteça, você tem que considerar algumas estatísticas dos aplicativos nativos atualmente:
 
 - 60% das aplicações na Google Playstore nunca foram baixadas.
 

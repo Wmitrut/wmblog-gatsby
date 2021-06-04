@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "10 lições de design para aplicar no seu próximo app"
-date:       2017-07-24 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, Mobile
-comments:   true
-featuredImage: "./evolucao.png"
+layout: post
+title: '10 lições de design para aplicar no seu próximo app'
+date: 2017-07-24 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, Mobile
+comments: true
+featuredImage: ./evolucao.png
 ---
 
 > Opa, voltando aqui pro blog com um texto menor que o usual mas não menos importante, espero voltar com a mesma periodicidade publicando aqui e no blog da Tampa. Estou preparando uma série de conteúdos novos e novos formatos, até mesmo alguns conteúdos baixáveis interessantes para você desenvolvedor que quer aprender um pouco mais de design e vice-versa.
@@ -21,7 +21,7 @@ Os meus designs eram por assim dizer, ocos. Ou seja, bonitos até certo ponto, l
 Aliás, lá no Tableless tem um texto bacana sobre design oco que aprofunda um pouco mais do que irei abordar aqui:
 
 #### [Sobre o design oco](https://tableless.com.br/o-design-ordinario-oco/)
-	
+
 É clichê citar **Don Norman** para a maioria dos designers mas foi graças ao livro dele que as coisas deram uma mudada e me fizeram pensar duas vezes e até mesmo enriquecer minhas estratégias de produzir um design de qualidade para meus aplicativos. As coisas mudaram quando li o livro dele **“The design of everyday things”**.
 
 Se você não conhece esse cara, ele é uma espécie de pai do UX design e ajudou a explorar fundamentos que as principais linguagens de design usam hoje. E o melhor, ele não fica com aquela papagaiada que muitos de nós quando tratamos de design achamos que se trata, ele vai direto ao ponto. Mostra como o design está em tudo.

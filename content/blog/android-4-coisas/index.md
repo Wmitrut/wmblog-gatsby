@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "4 coisas a se considerar para uma boa UX com Android"
-date:       2016-02-08 12:00:00
-author:     "Wellington Mitrut"
-tags:       Android, UX, UI
-comments:   true
-featuredImage: "./capa.jpeg"
+layout: post
+title: '4 coisas a se considerar para uma boa UX com Android'
+date: 2016-02-08 12:00:00
+author: 'Wellington Mitrut'
+tags: Android, UX, UI
+comments: true
+featuredImage: ./capa.jpeg
 ---
 
 Durante muito tempo no meio de design de aplicativos projetos iOS foram favorecidos em detrimento a projetos com Android, isso se deve em grande parte ao fato de que o Android não teve até 2014 uma guideline de design que fosse sólida e específica, porém, isso mudou com a implementação do Material Design.
@@ -29,7 +29,6 @@ Muitos designers tendem a optar por projetar para iOS e com uma certa razão: pr
 Mas esse desafio requer nada mais do que um pensamento criativo, o que por sua vez, pode levar a uma melhor concepção de UX.
 
 > Pense adaptativo! Pense como web!
-
 
 ![Responsividade](./responsive.gif)
 
@@ -65,7 +64,6 @@ Pergunte-se:
 
 > Será que o aplicativo precisa de um FAB? A ação é suficientemente importante para justificar ter um FAB?
 
-
 Estas são perguntas importantes que só podem ser respondidas com insights derivados de usuários.
 
 Se você decidir usar o FAB, certifique-se de seguir as orientações da documentação e implementá-las em conformidade. Caso contrário, uma FAB sem muito sentido prático só poderia arruinar a UX do seu aplicativo.
@@ -79,7 +77,6 @@ A tela inicial consiste em uma imagem que ocupa o espaço na tela inteira e é v
 Em vez de deixar o usuário olhando para uma tela em branco, enquanto o aplicativo carrega se vê uma tela que cria a impressão de que o aplicativo está carregando mais rápido. Além disso, ele ajuda a trazer toda a imagem da marca.
 
 ![Splashscreen](./splash.gif)
-
 
 Exêmplo de bom uso Splashscreen no app Inbox By Gmail.
 
@@ -113,7 +110,7 @@ Não tenha vergonha de imitar padrões de outros apps, contanto que isso faça s
 
 Não espere ser o primeiro app que o usuário exclui quando precisa de espaço para tirar mais uma foto para o Instagram.
 
------
+---
 
 **Enfim…**
 

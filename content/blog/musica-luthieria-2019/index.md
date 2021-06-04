@@ -1,22 +1,22 @@
 ---
-layout:     post
-title:      "O dia em que me ofertaram aulas de luthieria"
-date:       2020-02-01 12:00:00
-author:     "Wellington Mitrut"
-tags:       Musica, Community, Luthieria
-comments:   true
-featuredImage: "./001.JPG"
+layout: post
+title: 'O dia em que me ofertaram aulas de luthieria'
+date: 2020-02-01 12:00:00
+author: 'Wellington Mitrut'
+tags: Musica, Community, Luthieria
+comments: true
+featuredImage: ./001.JPG
 ---
 
 > Esse é um texto-ensaio, um pouco diferente do que você está acostumado por aqui então sente, relaxe, leia com calma.
 
 ![Foto de pessoas tocando instrumentos musicais](./001.JPG)
+
 > Photo by ACIC Labs
 
 > Recomendo fortemente que você leia o texto ao som abaixo.
 
 <iframe src="https://open.spotify.com/embed/track/0I4zQbi4OxnlVJ13GKJHGC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
 
 ### Solve / Coagula
 
@@ -36,11 +36,13 @@ Mas deixando os pequenos devaneios de lado, vamos falar do encontro com o luthie
 Pipocou na minha timeline um meetup e o convite para conhecer o que luthieria e inovação tem em comum. Apesar de ter deixado em segundo plano, a música sempre esteve presente em minha vida, umas vezes mais, outras menos, enfrentei a preguiça e fui ver qual era.
 
 ![Foto da chamada em redes sociais](./002.jpg)
+
 > Photo by ACIC Labs
 
 Carlos Magistralli vive de música, da aulas de violão e a pouco mais de 3 anos começou a fabricar violões em casa mesmo. Explicou a escolha das madeiras de cada peça, a orígem da palavra LUTHIER - que significa: <i> aquele que faz alaúde</i> (do francês Luth), o porque madeira x ou y servem, qual não pode ser usada por questões ambientais, por que se usa um tensor por dentro do braço de certos instrumentos, quais as técnicas usadas para colar todas as peças... enfim, eu que não conhecia nada do processo com detalhes mesmo sendo músico a pelo menos uns 15 anos aprendi e muito.
 
 ![Foto do Carlos Magistralli](./003.jpg)
+
 > Acervo pessoal
 
 ### A internet

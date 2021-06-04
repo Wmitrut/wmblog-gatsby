@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "Xamarin Vs. Nativo"
-date:       2016-10-09 12:00:00
-author:     "Wellington Mitrut"
-tags:       Xamarin, Mobile, Android, iOs
-comments:   true
-featuredImage: "./plush.jpeg"
+layout: post
+title: 'Xamarin Vs. Nativo'
+date: 2016-10-09 12:00:00
+author: 'Wellington Mitrut'
+tags: Xamarin, Mobile, Android, iOs
+comments: true
+featuredImage: ./plush.jpeg
 ---
 
 > Esse artigo é uma tradução livre e adaptada de “Xamarin Vs. Native”, publicada por Colby Williams. Eu ainda não sei mais que o básico e pesquisável em qualquer site de Xamarin na internet, por isso, sinta-se a vontade para sugerir correções e etc.
-
 
 ![Xamarin Plushes](./plush.jpeg)
 
@@ -105,7 +104,7 @@ As duas maiores vantagens de se utilizar uma solução híbrida são:
 
 Além disso, algumas soluções híbridas podem compilar para um aplicativo nativo ou quase nativo (Vide o <a href="https://facebook.github.io/react-native/" target="_blank">React Native</a> do Facebook). E dependendo de como é feita, é um boa abordagem, isso vai significar uma performance muito melhor do que uma página Web disfarçada como um aplicativo (veja abaixo).
 
-Mas quero deixar claro que eu disse que elas *“compilam para um aplicativo nativo ou quase nativo”*, porque a palavra *“nativo”* é o que importa por aqui.
+Mas quero deixar claro que eu disse que elas _“compilam para um aplicativo nativo ou quase nativo”_, porque a palavra _“nativo”_ é o que importa por aqui.
 
 “Binário nativo” não significa necessariamente um “app nativo” no mesmo sentido que as duas abordagens anteriores. Se uma ferramenta híbrida compila seus códigos para 60% nativo do iOS e Android SDK através de suas próprias APIs “write-once-run-everywhere”, pode compilar o aplicativo resultante para um binário nativo, mas o app ainda vai parecer e passar aquele sentimento de desenvolvido utilizando 60% do SDK.
 
@@ -126,6 +125,7 @@ E sobre esta abordagem, eu serei muito breve. Há sim lugar para aplicações we
 Por quê? Bem, vamos ser honestos, só porque o aplicativo pode abrir a câmera, ainda é apenas uma página web.
 
 ### O fim
+
 Esperemos que este pequeno resumo coloque oXamarin em perspectiva para os interessados.
 
 Sou obviamente um fã da Xamarin, e isso porque eu realmente amo iOS nativo e desenvolvimento para Android, e também por que eu realmente gosto de C#.

@@ -2,13 +2,14 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import ThemeToggle from './ThemeToggle.js'
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
-    let year = new Date().getFullYear();
+    let year = new Date().getFullYear()
 
     if (location.pathname === rootPath) {
       header = (
@@ -28,8 +29,9 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
-          </Link>
+            {' '}
+            {title}{' '}
+          </Link>{' '}
         </h1>
       )
     } else {
@@ -49,8 +51,9 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
-          </Link>
+            {' '}
+            {title}{' '}
+          </Link>{' '}
         </h3>
       )
     }
@@ -61,13 +64,20 @@ class Layout extends React.Component {
           marginRight: `auto`,
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          backgroundColor: 'var(--bg)',
+          color: 'var(--textNormal)',
+          transition: 'color 0.2s ease-out, background 0.2s ease-out',
         }}
       >
-        {header}
-        {children}
+        {' '}
+        {header} {children}{' '}
         <footer>
-          © {year}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+          {' '}
+          <span>
+          © {year}, Built with <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
+          </span>
+          <ThemeToggle />
+        </footer>{' '}
       </div>
     )
   }

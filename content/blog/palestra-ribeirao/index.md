@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "Palestra no GDG Ribeirão Preto em 20/03/2018"
-date:       2018-04-01 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, PWA, Mobile, Javascript
-comments:   true
-featuredImage: "./capa.png"
+layout: post
+title: 'Palestra no GDG Ribeirão Preto em 20/03/2018'
+date: 2018-04-01 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, PWA, Mobile, Javascript
+comments: true
+featuredImage: ./capa.png
 ---
+
 ![Capa](./capa.png)
 
 No último dia 20 de Março de 2018 tive a oportunidade de me apresentar e conhecer um pouco mais os eventos e integrantes do GDG Ribeirão Preto. Já que estava na cidade a trabalho, aproveitamos e marcamos um meetup rápido para falar sobre PWAs e tendências de aplicações web/mobile.

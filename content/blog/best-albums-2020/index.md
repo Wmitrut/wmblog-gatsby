@@ -1,15 +1,15 @@
 ---
-layout:     post
-title:      "Meu top 10 álbums 2020"
-date:       2020-12-06 12:00:00
-author:     "Wellington Mitrut"
-tags:       Music, Best Of
-comments:   true
-featuredImage: "./001.jpg"
+layout: post
+title: 'Meu top 10 álbums 2020'
+date: 2020-12-06 12:00:00
+author: 'Wellington Mitrut'
+tags: Music, Best Of
+comments: true
+featuredImage: ./001.jpg
 ---
 
-
 ![Toca-Discos, foto por Victrola Record Players](./001.jpg)
+
 > <span>Photo by <a href="https://unsplash.com/@victrola?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Victrola Record Players</a> on <a href="https://unsplash.com/s/photos/vinyl?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 2020 ainda não acabou e tem tudo pra ser o ano que mais iremos lembrar pelo resto de nossas vidas, independente de quem você seja. Perdemos várias pessoas queridas e o vírus continua a solta enquanto estamos à mercê de um fascista que AINDA não teve um plano de controle da pandemia.
@@ -68,7 +68,6 @@ Paradise Lost teve inúmeras e bem sucedidas fases, a atual é extremamente prom
 
 <iframe src="https://open.spotify.com/embed/album/1ameBtOmrJFgiNXx8W7OLx" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-
 #### Sepultura - Quadra
 
 ![Sepultura - Quadra](./quadra.jpg)
@@ -101,7 +100,7 @@ Quando a Taylor Swift lançou Folklore o que eu esperava era isso aqui. Myrkur e
 
 <iframe src="https://open.spotify.com/embed/album/1aRhu0xtlPbAb1X8us0uOD" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
------------
+---
 
 ## **E mais**
 
@@ -110,6 +109,5 @@ Quando a Taylor Swift lançou Folklore o que eu esperava era isso aqui. Myrkur e
 ▶ Você não é obrigado a ser produtivo neste momento, cuide dos seus
 
 ▶ Leia, e leia muito se possível. Mas também se respeite e descanse.
-
 
 [![Me siga na twitch](twitchbanner.png)](https://www.twitch.tv/wmitrut)

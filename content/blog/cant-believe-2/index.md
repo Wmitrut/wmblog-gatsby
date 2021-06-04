@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      "I Can’t Believe It’s not NATIVE! — Parte 2"
-date:       2018-10-01 12:00:00
-author:     "Wellington Mitrut"
-tags:       UI, UX, PWA, Mobile, Javascript
-comments:   true
-featuredImage: "./capa.jpeg"
+layout: post
+title: 'I Can’t Believe It’s not NATIVE! — Parte 2'
+date: 2018-10-01 12:00:00
+author: 'Wellington Mitrut'
+tags: UI, UX, PWA, Mobile, Javascript
+comments: true
+featuredImage: ./capa.jpeg
 ---
 
 Depois de um longo tempo sem publicar, continuo o post sobre como transformar seu PWA em um aplicativo de verdade.
@@ -16,9 +16,9 @@ Olá pessoal, depois de um longo tempo sem publicar, resolvi sentar a bunda na c
 
 ### Carga Cognitiva
 
-Se você já leu o texto, pois bem, terminamos o último falando sobre um problema de UX bem comum chamado  CARGA COGNITIVA.
+Se você já leu o texto, pois bem, terminamos o último falando sobre um problema de UX bem comum chamado CARGA COGNITIVA.
 
-> Segundo a [wikipedia](https://pt.wikipedia.org/wiki/Esfor%C3%A7o_cognitivo), *carga cognitiva* se refere ao nível de utilização de recursos psicológicos como memórias, atenção, percepção, representação de conhecimento, raciocínio e criatividade na resolução de problemas.
+> Segundo a [wikipedia](https://pt.wikipedia.org/wiki/Esfor%C3%A7o_cognitivo), _carga cognitiva_ se refere ao nível de utilização de recursos psicológicos como memórias, atenção, percepção, representação de conhecimento, raciocínio e criatividade na resolução de problemas.
 
 Ou seja, para nós que trabalhamos com PWA, é interessante que venhamos a utilizar convenções e padrões já utilizados em aplicações ditas nativas, isso também não quer dizer que absolutamente todo app que você faz tem que ser em material design ou cupertino components (Apple Design), mas sim que você pode tirar o melhor de cada e criar experiências incríveis.
 
@@ -93,5 +93,3 @@ Dar feedback de toque é essencial, então pelo amor de Addy Osmani, cuide com o
 - [RIPPLE.JS](https://github.com/samthor/rippleJS)
 
 > Se você leu até agora e se perguntou, como faríamos para jogar os recursos básicos iniciais para montar a tela e ficou achando que eu era meio maluco de querer fazer preload de tudo, saiba que aí é que irei parar de falar um pouco de UX/UI, olhar um pouco melhor para técnicas, estratégias e explorar a técnica do padrão PRPL — tudo isso no nosso próximo post!
-
-

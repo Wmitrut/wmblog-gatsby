@@ -1,25 +1,25 @@
 ---
-layout:     post
-title:      "O que é Engenharia de UX"
-date:       2020-05-28 12:00:00
-author:     "Wellington Mitrut"
-tags:       Front-End, UX, Dsign
-comments:   true
-featuredImage: "./001.JPG"
+layout: post
+title: 'O que é Engenharia de UX'
+date: 2020-05-28 12:00:00
+author: 'Wellington Mitrut'
+tags: Front-End, UX, Dsign
+comments: true
+featuredImage: ./001.JPG
 ---
 
-
 ![Ux](./zan.jpg)
-> Photo by Zanilik -  [@zanilik](https://unsplash.com/@zanilik) peguei lá no Unsplash
 
-*Este é um texto traduzido e adaptado de [UX Engineering]([https://dev.to/emmabostian/ux-engineering-3hem](https://dev.to/emmabostian/ux-engineering-3hem)) de [Emma Bostian]([https://twitter.com/EmmaBostian](https://twitter.com/EmmaBostian)) do Spotify. Tradução autorizada pela autora.*
+> Photo by Zanilik - [@zanilik](https://unsplash.com/@zanilik) peguei lá no Unsplash
+
+_Este é um texto traduzido e adaptado de [UX Engineering](<[https://dev.to/emmabostian/ux-engineering-3hem](https://dev.to/emmabostian/ux-engineering-3hem)>) de [Emma Bostian](<[https://twitter.com/EmmaBostian](https://twitter.com/EmmaBostian)>) do Spotify. Tradução autorizada pela autora._
 
 Há alguns meses, fiquei emocionado por ser oficialmente considerado pelo meu time um "Engenheiro de experiência do usuário" (UXE). Eu teria a chance de construir Design Systems! Mas assim que os ânimos se acalmaram, eu rapidamente percebi o quão indefinido é o papel do UXE. Eu tentei pesquisar a posição no Google, mas fiquei a ver navios.
 
 Embora algumas empresas, como Google e Etsy, estejam começando a contratar UXEs, a posição difere bastante entre as empresas.
 Assim, depois de muita pesquisa no campo, acredito que finalmente resumi o que é um UXE, as habilidades necessárias para ter sucesso e as responsabilidades.
 
-*Observe que esse papel é um apanhado não apenas de todas as pesquisas que fiz, mas também de minhas experiências pessoais. Se você está considerando se tornar um UXE, revise os requisitos para essa posição com seu potencial empregador.*
+_Observe que esse papel é um apanhado não apenas de todas as pesquisas que fiz, mas também de minhas experiências pessoais. Se você está considerando se tornar um UXE, revise os requisitos para essa posição com seu potencial empregador._
 
 ### O que é um Engenheiro de UX
 
@@ -85,7 +85,7 @@ As qualificações para um UXE variam de empresa para empresa, no entanto, inclu
 
 Aqui estão alguns exemplos de conhecimento de design do UX que se espera que um UXE entenda:
 
-- A capacidade de olhar para um componente e entender como e por que as peças se encaixam. - *Por que o texto está alinhado à esquerda? (o texto deve ser justificado na direção em que seu público-alvo lê. Como a maioria das pessoas no mundo lê da esquerda para a direita, é por isso que é melhor justificar o texto quando você tem uma bloco de texto com mais de três linhas.)*
+- A capacidade de olhar para um componente e entender como e por que as peças se encaixam. - _Por que o texto está alinhado à esquerda? (o texto deve ser justificado na direção em que seu público-alvo lê. Como a maioria das pessoas no mundo lê da esquerda para a direita, é por isso que é melhor justificar o texto quando você tem uma bloco de texto com mais de três linhas.)_
 - Por que os parágrafos não devem ter mais de 50 a 70 caracteres por linha (quanto maior a linha, mais cansados os olhos de nossos usuários).
 - Por que é melhor colocar texto de cor escura em fundos de cores claras do que vice-versa (o contraste é muito mais acentuado com essa combinação).
 - Por que você nunca deve colocar texto sobre uma imagem de fundo sem sobreposição de fundo, sombra projetada ou contraste ou reduzir a opacidade da imagem (o texto, preto, branco ou colorido, se misturará com os diferentes tons da imagem; se tivermos um texto branco sobre uma imagem, ela se destacará nas áreas mais escuras e sumirá nas partes mais claras.)
@@ -104,15 +104,15 @@ Se você deseja mesmo se aprofundar para função UXE, recomendo o livro [Refact
 
 ### Habilidades de Front-End
 
-Como a função primária de um UXE é o desenvolvimento front-end, você deve estar habituado com os princípios básicos de engenharia e  desenvolvimento front-end.
+Como a função primária de um UXE é o desenvolvimento front-end, você deve estar habituado com os princípios básicos de engenharia e desenvolvimento front-end.
 
 Aqui estão algumas habilidades que você pode aprender antes de se candidatar a uma função UXE:
 
 - **HTML, CSS e JavaScript:** não subestime esses "conceitos básicos". Aprender a usar essas habilidades de maneira eficaz e correta não é difícil, mas é extremamente importante.
 - **Build Tools**: Você precisará saber trabalhar com o [Webpack](https://webpack.js.org/) ou [Gulp](https://gulpjs.com/), pois são essenciais para a criação de componentes.
-- **Pré-processadores e ferramentas de CSS:** é comum encontrarmos [Sass](https://sass-lang.com/) ou [Less](http://lesscss.org/) em uma estrutura de UI ou  em uma biblioteca de componentes, portanto, você pode querer aprende trabalhar com eles. Além disso, eu recomendo aprender uma arquitetura de nomeação de classes como [Block-Element-Modifier (BEM)](http://getbem.com/) ou [Scalable and Modular Architecture for CSS (SMACSS)](http://smacss.com/). Eles são muito úteis ao usar as ferramentas acima citadas.
+- **Pré-processadores e ferramentas de CSS:** é comum encontrarmos [Sass](https://sass-lang.com/) ou [Less](http://lesscss.org/) em uma estrutura de UI ou em uma biblioteca de componentes, portanto, você pode querer aprende trabalhar com eles. Além disso, eu recomendo aprender uma arquitetura de nomeação de classes como [Block-Element-Modifier (BEM)](http://getbem.com/) ou [Scalable and Modular Architecture for CSS (SMACSS)](http://smacss.com/). Eles são muito úteis ao usar as ferramentas acima citadas.
 - **Acessibilidade:** você deve entender como usar HTML semântico para garantir que sua biblioteca de componentes esteja em conformidade com o [W3C](https://www.w3.org/) e pessoas com necessidades especiais venham poder acessar sua aplicação sem problemas.
-- **Algoritmos *:** coloquei um asterisco nessa habilidade porque, como veremos na seção de entrevistas deste post, espera-se que você tenha alguma compreensão dos algoritmos, tempos de execução e técnicas de otimização. Dito isto, você provavelmente não utilizará tantos algoritmos no seu dia-a-dia, ao contrário de um Engenheiro Front-End em uma equipe de desenvolvimento.
+- **Algoritmos \*:** coloquei um asterisco nessa habilidade porque, como veremos na seção de entrevistas deste post, espera-se que você tenha alguma compreensão dos algoritmos, tempos de execução e técnicas de otimização. Dito isto, você provavelmente não utilizará tantos algoritmos no seu dia-a-dia, ao contrário de um Engenheiro Front-End em uma equipe de desenvolvimento.
 - **Solução de problemas:** Você deve ser capaz de ter habilidades de resolução de problemas na construção da biblioteca de componentes.
 - **Design Patterns:** Pode ser útil ter algum conhecimento de design patterns (as maneiras pelas quais podemos arquitetar nossos componentes). Addy Osmani publicou um [livro](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) incrível sobre padrões de design que eu recomendo.
 - **Design Responsivo:** Você deve construir componentes responsivos que devem funcionar em diferentes resoluções. Portanto, você deve conhecer os princípios do design responsivo.
