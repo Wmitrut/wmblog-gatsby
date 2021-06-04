@@ -29,17 +29,11 @@ footer{
 
 .oni{
   margin: 0;
-  position: absolute;
-  top: -13px;
-  left: -12px;
   transition: all .2s ease;
 }
 
 .angel{
   margin: 0;
-  position: absolute;
-  top: 0px;
-  right: 1px;
   transition: all .2s ease;
 }
 
@@ -66,12 +60,16 @@ label > input[type=checkbox] {
 
 .check-1 .inner {
   position: absolute;
- width: 55px;
+  width: 55px;
   height: 30px;
   border-radius: 50px;
   border: 2px solid #e8e8e8;
   background: #4aa3df;
   transition: all .2s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .check-1 .bullet {
