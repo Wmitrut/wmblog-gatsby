@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 import ThemeToggle from './ThemeToggle.js'
+import blogsabbath from '../assets/blogsabbath.png'
 
 class Layout extends React.Component {
   render() {
@@ -29,8 +30,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {' '}
-            {title}{' '}
+            <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "50%", margin: 0}}/>
           </Link>{' '}
         </h1>
       )
@@ -48,11 +48,14 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: '#D30002',
+              display: `flex`,
+              alignItems: `center`,
             }}
             to={`/`}
           >
             {' '}
-            {title}{' '}
+            ◄
+            <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "30%", margin:0}}/>
           </Link>{' '}
         </h3>
       )
@@ -74,7 +77,7 @@ class Layout extends React.Component {
         <footer>
           {' '}
           <span>
-          © {year}, Built with <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
+            © {year}, Built with <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
           </span>
           <ThemeToggle />
         </footer>{' '}

@@ -29,7 +29,7 @@ undefined, null, NaN, 0, "", false
 
 Todos os valores verdadeiros são aqueles que não são falseáveis. Lembra da tabela verdade? Abaixo anexo uma aula bem completa sobre tabela verdade e valores verdadeiros e falseáveis.
 
-{% youtube s_9HNbY4Zek%}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s_9HNbY4Zek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Em Javascript isto pode ser representado da seguinte maneira:
 
