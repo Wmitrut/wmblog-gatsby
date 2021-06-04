@@ -17,6 +17,7 @@ class Layout extends React.Component {
         <div style={{
           display: "flex",
           flexDirection: "row",
+          padding:"0 15px 0 0"
         }}>
         <h1
           style={{

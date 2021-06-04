@@ -20,6 +20,11 @@ body.dark {
   --hr: hsla(0, 0%, 100%, 0.2);
 }
 
+blockquote{
+  color: var(--textNormal);
+  border-left: 10px solid var(--textNormal);
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -30,11 +35,13 @@ footer{
 .oni{
   margin: 0;
   transition: all .2s ease;
+  margin-right: 10px;
 }
 
 .angel{
   margin: 0;
   transition: all .2s ease;
+  margin-right: 2px;
 }
 
 *, *:after, *:before {
