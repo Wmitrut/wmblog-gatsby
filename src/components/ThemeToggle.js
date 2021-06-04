@@ -14,7 +14,8 @@ class ThemeToggle extends React.Component {
               checked={theme === 'dark'}
             />
              <div class="inner">
-             {theme === 'dark' ? <p className="oni">👹</p> : <p className="angel">😇</p>}
+             <p className="oni" style={theme === 'dark' ? {opacity: 1} : {opacity : 0}}>👹</p> 
+             <p className="angel" style={theme === 'dark' ? {opacity: 0} : {opacity : 1}}>😇</p> 
              </div>
              <div class="bullet"></div>
              

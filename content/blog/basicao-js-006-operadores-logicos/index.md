@@ -12,7 +12,7 @@ Antes de tudo, obrigado pelos acessos que vocês tem dado à estes posts, eu ten
 
 Coloca esse álbum do Black Sabbath e manda ver:
 
-<iframe src="https://open.spotify.com/embed/album/0nfG16SkgyQ3bQwZyfzwzP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/0nfG16SkgyQ3bQwZyfzwzP" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5xawzg24iy9mspxuya2j.jpg)

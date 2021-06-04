@@ -14,6 +14,10 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
+        <div style={{
+          display: "flex",
+          flexDirection: "row",
+        }}>
         <h1
           style={{
             ...scale(0.5),
@@ -32,7 +36,10 @@ class Layout extends React.Component {
           >
             <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "50%", margin: 0}}/>
           </Link>{' '}
+          
         </h1>
+        <ThemeToggle />
+        </div>
       )
     } else {
       header = (
@@ -79,7 +86,6 @@ class Layout extends React.Component {
           <span>
             © {year}, Built with <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
           </span>
-          <ThemeToggle />
         </footer>{' '}
       </div>
     )
