@@ -30,7 +30,7 @@ function Bio() {
             <p>
               Blog escrito e mantido por
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              <a href={`https://github.com/${social.twitter}`}>
               <strong>{author}</strong>
               </a> 
               {` `}
