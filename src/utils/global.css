@@ -2,6 +2,7 @@
 
 body {
   --bg: white;
+  --bgPostHover: rgb(248, 248, 248);
   --textNormal: #222;
   --textTitle: #222;
   --textLink: #e32528;
@@ -12,8 +13,8 @@ body {
 
 body.dark {
   -webkit-font-smoothing: antialiased;
-
-  --bg: #000;
+  --bg: rgb(11, 11, 11);
+  --bgPostHover: rgb(27, 27, 27);
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
   --textLink: #e32528;
@@ -124,6 +125,18 @@ label > input[type=checkbox] {
 
 .social-button:hover{
   opacity: 0.3;
+}
+
+.post-item{
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s all;
+  background:var(--bg);
+}
+
+.post-item:hover{
+  background: var(--bgPostHover);
 }
 
 @keyframes bullet {
