@@ -75,7 +75,7 @@ module.exports = {
         short_name: `Mitrut`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#D30002`,
+        theme_color: `#e32528`,
         display: `standalone`,
         icon: `content/assets/icon.png`,
         include_favicon: true,

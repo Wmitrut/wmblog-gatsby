@@ -42,7 +42,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-        <small>
+        <small style={{color:"#9c9c9c"}}>
           {post.frontmatter.date}
           {` • ${cups(post.timeToRead)}`}
 

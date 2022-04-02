@@ -24,14 +24,14 @@ class Layout extends React.Component {
             ...scale(0.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            color: '#D30002',
+            color: '#e32528',
           }}
         >
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: '#D30002',
+              color: '#e32528',
             }}
             to={`/`}
           >
@@ -55,14 +55,13 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: '#D30002',
+              color: '#e32528',
               display: `flex`,
               alignItems: `center`,
             }}
             to={`/`}
           >
             {' '}
-            ◄
             <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "30%", margin:0}}/>
           </Link>{' '}
         </h3>

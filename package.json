@@ -34,6 +34,7 @@
     "react": "^16.5.1",
     "react-custom-share": "^0.4.8",
     "react-dom": "^16.5.1",
+    "react-feather": "^2.0.9",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.4.0",
     "react-typography": "^0.16.13",

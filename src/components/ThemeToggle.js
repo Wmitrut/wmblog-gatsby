@@ -18,10 +18,7 @@ class ThemeToggle extends React.Component {
              <p className="angel">😇</p> 
              </div>
              <div class="bullet"></div>
-             
           </label>
-
-
         )}
       </ThemeToggler>
     )

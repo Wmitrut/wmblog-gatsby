@@ -33,7 +33,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>
+              <small style={{color:"#9c9c9c"}}>
                 {node.frontmatter.date}
                 {` • ${cups(node.timeToRead)}`}
               </small>
