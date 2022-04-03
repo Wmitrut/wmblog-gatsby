@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `javascript`, `react`, `typescript`,`angular`, `react native`, `html`, `css`, `Android`]}
         />
         <Bio />
-        <div>
+        <div className='blog-main-body'>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

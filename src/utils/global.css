@@ -157,6 +157,18 @@ label > input[type=checkbox] {
   object-position: 10%;
 }
 
+.blog-main-body{
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 672px) {
+  .blog-main-body{
+    grid-template-columns: 100%;
+  }
+}
+
 @keyframes bullet {
 
   0%,

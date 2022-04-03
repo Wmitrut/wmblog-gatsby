@@ -5,7 +5,7 @@ date: 2021-05-28 12:00:00
 author: 'Wellington Mitrut'
 tags: Javascript, Community, Basicão do Javascript
 comments: true
-featuredImage: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/li76o5i8hwolzk45mdfh.jpg
+featuredImage: ./girafales.jpeg
 ---
 
 ![O professor Jirafales](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/li76o5i8hwolzk45mdfh.jpg)

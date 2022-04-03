@@ -5,7 +5,7 @@ date: 2021-06-03 12:00:00
 author: 'Wellington Mitrut'
 tags: Javascript, Community, Basicão do Javascript
 comments: true
-featuredImage: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/li76o5i8hwolzk45mdfh.jpg
+featuredImage: ./spock.jpeg
 ---
 
 Antes de tudo, obrigado pelos acessos que vocês tem dado à estes posts, eu tentarei continuar a faze-los com a mesma frenquencia semanal. 
