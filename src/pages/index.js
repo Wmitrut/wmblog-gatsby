@@ -20,9 +20,11 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `javascript`, `react`, `typescript`,`angular`, `react native`, `html`, `css`, `Android`]}
         />
         <Bio />
+        <div>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
             <div key={node.fields.slug} className="post-item">
               <h3
                 style={{
@@ -30,9 +32,9 @@ class BlogIndex extends React.Component {
                   marginTop:0
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                
                   {title}
-                </Link>
+                
               </h3>
               <small style={{color:"#9c9c9c"}}>
                 {node.frontmatter.date}
@@ -41,8 +43,10 @@ class BlogIndex extends React.Component {
               
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
+            </Link>
           )
         })}
+        </div>
       </Layout>
     )
   }

@@ -23,7 +23,11 @@ body.dark {
 
 blockquote{
   color: var(--textNormal);
-  border-left: 10px solid var(--textNormal);
+  border-left: 2px solid var(--textNormal);
+  background: rgb(239 239 239 / 6%);
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  font-size: 16px;
 }
 
 footer{
@@ -129,14 +133,19 @@ label > input[type=checkbox] {
 
 .post-item{
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 20px;
   transition: 0.3s all;
   background:var(--bg);
 }
 
+.post-item > p{
+  color: var(--textNormal);
+}
+
 .post-item:hover{
   background: var(--bgPostHover);
+  transform: translate(0px,-5px);
 }
 
 @keyframes bullet {
