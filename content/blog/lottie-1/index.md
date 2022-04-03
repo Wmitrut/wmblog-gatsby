@@ -5,7 +5,7 @@ date: 2017-12-03 12:00:00
 author: 'Wellington Mitrut'
 tags: UI, UX, Android, Lottie, Libs
 comments: true
-featuredImage: ./oldman.gif
+featuredImage: ./oldman.png
 ---
 
 ![Old man](./oldman.gif)

@@ -5,7 +5,7 @@ date: 2018-02-16 12:00:00
 author: 'Wellington Mitrut'
 tags: UI, UX, Android, Lottie, Libs, Kotlin
 comments: true
-featuredImage: ./polvo.gif
+featuredImage: ./polvo.png
 ---
 
 ![Polvo tocando violão](./polvo.gif)
