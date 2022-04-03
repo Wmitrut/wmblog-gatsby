@@ -3,7 +3,7 @@ layout: post
 title: ' Dark mode, Black Sabbath e outros bitchos mais '
 date: 2021-06-07 12:00:00
 author: 'Wellington Mitrut'
-tags: ["Gatsby", "JavaScript", "GraphQL"]
+tags: ["Meta", "JavaScript", "Gatsby"]
 comments: true
 featuredImage: ./001.jpg
 ---
