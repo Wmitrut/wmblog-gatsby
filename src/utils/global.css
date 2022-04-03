@@ -148,6 +148,15 @@ label > input[type=checkbox] {
   transform: translate(0px,-5px);
 }
 
+.post-header-image{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  object-position: 10%;
+}
+
 @keyframes bullet {
 
   0%,

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
+import Img from "gatsby-image"
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
@@ -26,6 +26,15 @@ class BlogIndex extends React.Component {
           return (
             <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
             <div key={node.fields.slug} className="post-item">
+            {
+                node.frontmatter.featuredImage && (
+                <Img
+                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                  alt={node.frontmatter.title}
+                  className={"post-header-image"}
+                />
+              )
+            }
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -72,6 +81,14 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            featuredImage {
+              publicURL
+              childImageSharp {
+                fluid(maxWidth: 750) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

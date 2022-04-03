@@ -5,7 +5,7 @@ date: 2021-05-15 12:00:00
 author: 'Wellington Mitrut'
 tags: Javascript, Community, Basicão do Javascript
 comments: true
-featuredImage: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/szrrw9a467pxoi9j8239.png
+featuredImage: ./gato.jpeg
 ---
 
 Vamos continuar a série do básicão do Javascript hoje com operadores de comparação, um assunto rápido mas crucial para entender qualquer linguagem de programação.

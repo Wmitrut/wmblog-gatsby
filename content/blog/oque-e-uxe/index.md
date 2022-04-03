@@ -5,7 +5,7 @@ date: 2020-05-28 12:00:00
 author: 'Wellington Mitrut'
 tags: Front-End, UX, Dsign
 comments: true
-featuredImage: ./001.JPG
+featuredImage: ./zan.jpg
 ---
 
 ![Ux](./zan.jpg)
