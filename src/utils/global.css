@@ -141,6 +141,7 @@ label > input[type=checkbox] {
 
 .post-item > p{
   color: var(--textNormal);
+  margin-bottom: 10px;
 }
 
 .post-item:hover{

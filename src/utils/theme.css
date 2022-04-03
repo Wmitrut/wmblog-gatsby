@@ -3,7 +3,7 @@
  */
  code[class*='language-'],
  pre[class*='language-'] {
-   color: white;
+   color: #dae6ff;
    background: none;
    font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
    font-feature-settings: normal;
@@ -64,21 +64,21 @@
  }
  
  .token.attr-name {
-   color: rgb(173, 219, 103);
+   color: rgb(219, 178, 103);
    font-style: italic;
  }
  
  .token.comment {
-   color: rgb(128, 147, 147);
+   color: #697795;
  }
  
  .token.string,
  .token.url {
-   color: rgb(173, 219, 103);
+  color: rgb(136, 219, 103);
  }
  
  .token.variable {
-   color: rgb(214, 222, 235);
+   color: rgb(200, 134, 211);
  }
  
  .token.number {
@@ -109,11 +109,11 @@
  .token.tag,
  .token.operator,
  .token.keyword {
-   color: #ffa7c4;
+   color: #739df8;
  }
  
  .token.boolean {
-   color: rgb(255, 88, 116);
+   color: rgb(255, 219, 88);
  }
  
  .token.property {
@@ -130,7 +130,7 @@
  }
  
  .gatsby-highlight-code-line {
-   background-color: hsla(207, 95%, 15%, 1);
+   background-color: rgb(29, 46, 60);
    display: block;
    margin-right: -1.3125rem;
    margin-left: -1.3125rem;
@@ -144,7 +144,7 @@
    margin-left: -1.3125rem;
    margin-right: -1.3125rem;
    border-radius: 10px;
-   background: #011627;
+   background: #2e3440;
    -webkit-overflow-scrolling: touch;
    overflow: auto;
  }

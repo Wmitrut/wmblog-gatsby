@@ -83,12 +83,23 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        height: 3,
+        prependToBody: false,
+        color: `#e32528`,
+        footerHeight: 500,
+        headerHeight: 0,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+      
     },
   ],
 }

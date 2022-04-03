@@ -59,9 +59,7 @@ class BlogIndex extends React.Component {
                     {node.frontmatter.date}
                     {` • ${cups(node.timeToRead)}`}
                   </small>
-
                   <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-
                   <div>
                   {tags.map(tag => <span className="tag-item" key={tag}> {tag} </span>)}
                   </div>
