@@ -87,6 +87,7 @@ module.exports = {
       resolve: "gatsby-plugin-page-progress",
       options: {
         height: 3,
+        excludePaths:["/"],
         prependToBody: false,
         color: `#e32528`,
         footerHeight: 500,
