@@ -3,7 +3,7 @@ layout: post
 title: 'Suas UIs animadas com Lottie pt.2: Implementando Lottie no Android com Kotlin'
 date: 2018-02-16 12:00:00
 author: 'Wellington Mitrut'
-tags: UI, UX, Android, Lottie, Libs, Kotlin
+tags: ["UI", "UX", "Android", "Lottie", "Libs", "Kotlin"]
 comments: true
 featuredImage: ./polvo.png
 ---

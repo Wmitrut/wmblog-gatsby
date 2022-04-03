@@ -3,7 +3,7 @@ layout: post
 title: 'Meetup #001 - Construindo projetos com Google Assistant e IoT'
 date: 2019-05-20 12:00:00
 author: 'Wellington Mitrut'
-tags: Meetup, GDG, Community, Iot, Assistant
+tags: ["Meetup", "GDG", "Community", "IoT", "Assistant"]
 comments: true
 featuredImage: ./01.jpg
 ---

@@ -3,7 +3,7 @@ layout: post
 title: 'Palestra no GDG Ribeirão Preto em 20/03/2018'
 date: 2018-04-01 12:00:00
 author: 'Wellington Mitrut'
-tags: UI, UX, PWA, Mobile, Javascript
+tags: ["UI", "UX", "PWA", "Mobile", "Javascript"]
 comments: true
 featuredImage: ./capa.png
 ---

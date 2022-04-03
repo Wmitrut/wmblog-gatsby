@@ -3,7 +3,7 @@ layout: post
 title: 'Meu top 10 álbums 2020'
 date: 2020-12-06 12:00:00
 author: 'Wellington Mitrut'
-tags: Music, Best Of
+tags: ["Music", "Best Of"]
 comments: true
 featuredImage: ./001.jpg
 ---

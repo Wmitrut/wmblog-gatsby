@@ -4,7 +4,7 @@ title: 'Manipulando câmera utilizando HTML5 e JS'
 subtitle: 'Front-drops #s01e01 - Pequeno tutorial rápido de como usar html5 e javascript para tirar fotos.'
 date: 2015-03-12 12:00:00
 author: 'Wellington Mitrut'
-tags: HTML5, Javascript, front drops
+tags: ["HTML5", "Javascript"]
 featuredImage: ./exemplo1.png
 ---
 

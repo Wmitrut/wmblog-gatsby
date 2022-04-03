@@ -3,7 +3,7 @@ layout: post
 title: 'I Can’t Believe It’s not NATIVE! — Parte 1'
 date: 2018-03-06 12:00:00
 author: 'Wellington Mitrut'
-tags: UI, UX, PWA, Mobile, Javascript
+tags: ["UI", "UX", "PWA", "Mobile", "Javascript"]
 comments: true
 featuredImage: ./cant.png
 ---

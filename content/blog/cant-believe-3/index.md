@@ -3,7 +3,7 @@ layout: post
 title: 'I Can’t Believe It’s not NATIVE! — Parte 3 - LIGHTHOUSE'
 date: 2019-03-08 12:00:00
 author: 'Wellington Mitrut'
-tags: UI, UX, PWA, Mobile, Javascript, Performance, Lighthouse
+tags: ["PWA","Javascript", "Performance", "Lighthouse"]
 comments: true
 featuredImage: ./lighthouse_photo.jpg
 ---

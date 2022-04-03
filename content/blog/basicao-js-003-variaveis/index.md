@@ -3,7 +3,7 @@ layout: post
 title: '#003 Basicão do JS: Várias Variáveis'
 date: 2021-01-25 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./001.jpg
 ---

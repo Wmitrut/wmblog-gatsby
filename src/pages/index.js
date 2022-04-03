@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import Img from "gatsby-image"
+import Img from 'gatsby-image'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
@@ -17,44 +17,58 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `javascript`, `react`, `typescript`,`angular`, `react native`, `html`, `css`, `Android`]}
+          keywords={[
+            `blog`,
+            `javascript`,
+            `react`,
+            `typescript`,
+            `angular`,
+            `react native`,
+            `html`,
+            `css`,
+            `Android`,
+          ]}
         />
         <Bio />
-        <div className='blog-main-body'>
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-            <div key={node.fields.slug} className="post-item">
-            {
-                node.frontmatter.featuredImage && (
-                <Img
-                  fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
-                  alt={node.frontmatter.title}
-                  className={"post-header-image"}
-                />
-              )
-            }
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                  marginTop:0
-                }}
-              >
-                
-                  {title}
-                
-              </h3>
-              <small style={{color:"#9c9c9c"}}>
-                {node.frontmatter.date}
-                {` • ${cups(node.timeToRead)}`}
-              </small>
-              
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-            </Link>
-          )
-        })}
+        <div className="blog-main-body">
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            const tags = node.frontmatter.tags || [];
+
+            return (
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <div key={node.fields.slug} className="post-item">
+                  {node.frontmatter.featuredImage && (
+                    <Img
+                      fluid={
+                        node.frontmatter.featuredImage.childImageSharp.fluid
+                      }
+                      alt={node.frontmatter.title}
+                      className={'post-header-image'}
+                    />
+                  )}
+                  <h3
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                      marginTop: 0,
+                    }}
+                  >
+                    {title}
+                  </h3>
+                  <small style={{ color: '#9c9c9c' }}>
+                    {node.frontmatter.date}
+                    {` • ${cups(node.timeToRead)}`}
+                  </small>
+
+                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+
+                  <div>
+                  {tags.map(tag => <span className="tag-item" key={tag}> {tag} </span>)}
+                  </div>
+                </div>
+              </Link>
+            )
+          })}
         </div>
       </Layout>
     )
@@ -81,6 +95,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tags
             featuredImage {
               publicURL
               childImageSharp {

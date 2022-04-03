@@ -3,7 +3,7 @@ layout: post
 title: 'O que é Engenharia de UX'
 date: 2020-05-28 12:00:00
 author: 'Wellington Mitrut'
-tags: Front-End, UX, Dsign
+tags: ["FrontEnd", "UX", "Design"]
 comments: true
 featuredImage: ./zan.jpg
 ---

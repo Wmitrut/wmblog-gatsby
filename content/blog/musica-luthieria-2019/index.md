@@ -3,7 +3,7 @@ layout: post
 title: 'O dia em que me ofertaram aulas de luthieria'
 date: 2020-02-01 12:00:00
 author: 'Wellington Mitrut'
-tags: Musica, Community, Luthieria
+tags: ["Musica", "Community", "Luthieria"]
 comments: true
 featuredImage: ./001.JPG
 ---

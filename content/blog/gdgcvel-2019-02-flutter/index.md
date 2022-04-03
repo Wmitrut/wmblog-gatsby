@@ -3,7 +3,7 @@ layout: post
 title: 'Meetup #002 - Flutter, Dart e Multiplataformas mobile!'
 date: 2019-08-07 12:00:00
 author: 'Wellington Mitrut'
-tags: Meetup, GDG, Community, Flutter, Mobile
+tags: ["Meetup", "GDG", "Community", "Flutter", "Mobile"]
 comments: true
 featuredImage: ./flut.png
 ---

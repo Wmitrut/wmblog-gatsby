@@ -3,7 +3,7 @@ layout: post
 title: '#001 Basicão do JS: Tipos de dados em Javascript - parte 1: Primitivos'
 date: 2020-05-13 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./001.jpeg
 ---

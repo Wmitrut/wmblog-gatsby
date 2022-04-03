@@ -3,7 +3,7 @@ layout:     post
 title:      "Atenção freguesia…"
 date:       2016-10-06 12:00:00
 author:     "Wellington Mitrut"
-tags:       Productivity
+tags:      ["Productivity"]
 comments:   true
 featuredImage: "./droid.png"
 ---

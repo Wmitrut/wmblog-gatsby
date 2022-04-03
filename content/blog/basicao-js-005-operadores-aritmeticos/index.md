@@ -3,7 +3,7 @@ layout: post
 title: '#005 - Basicão do JS: Operadores aritméticos '
 date: 2021-05-28 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./girafales.jpeg
 ---

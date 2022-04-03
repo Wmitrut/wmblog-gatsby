@@ -3,7 +3,7 @@ layout: post
 title: '#002 Basicão do JS: Tipos de dados em Javascript - parte 2: Objects'
 date: 2020-05-25 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./001.jpg
 ---

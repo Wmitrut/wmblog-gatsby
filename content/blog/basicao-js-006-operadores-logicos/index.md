@@ -3,7 +3,7 @@ layout: post
 title: '#006 - Basicão do JS: Operadores lógicos '
 date: 2021-06-03 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./spock.jpeg
 ---

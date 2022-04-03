@@ -3,7 +3,7 @@ layout: post
 title: 'Você deveria mesmo prestar mais atenção no Ionic'
 date: 2017-04-28 12:00:00
 author: 'Wellington Mitrut'
-tags: Ionic, Web, Javascript, Typescript
+tags: ["Ionic", "Web", "Javascript", "Typescript"]
 comments: true
 featuredImage: ./zuck.png
 ---

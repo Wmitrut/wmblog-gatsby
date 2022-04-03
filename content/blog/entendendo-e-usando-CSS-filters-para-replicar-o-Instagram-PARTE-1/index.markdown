@@ -4,7 +4,7 @@ title:      "Entendendo e usando CSS filters para replicar o Instagram - PARTE 1
 subtitle:   "Front-drops #s01e02 - Como usar CSS filters e imitar efeitos como do Instagram."
 date:       2015-04-15 12:00:00
 author:     "Wellington Mitrut"
-tags:       HTML5, Javascript, front drops
+tags:       ["HTML5", "Javascript", "front drops"]
 comments:   true
 featuredImage: "./instagraminterface.jpg"
 ---

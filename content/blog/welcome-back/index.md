@@ -3,7 +3,7 @@ layout: post
 title: 'Bem-Vindos novamente ao show que nunca termina'
 date: 2019-03-02 12:00:00
 author: 'Wellington Mitrut'
-tags: Meta, Comunidade, Blog, Javascript, Typescript
+tags: ["Meta", "Comunidade", "Blog", "Javascript", "Typescript"]
 comments: true
 featuredImage: ./elp.jpg
 ---

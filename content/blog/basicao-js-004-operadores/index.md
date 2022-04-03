@@ -3,7 +3,7 @@ layout: post
 title: '#004 - Basicão do JS: Operadores de comparação '
 date: 2021-05-15 12:00:00
 author: 'Wellington Mitrut'
-tags: Javascript, Community, Basicão do Javascript
+tags: ["Javascript", "Community", "Basicão do Javascript"]
 comments: true
 featuredImage: ./gato.jpeg
 ---
