@@ -156,6 +156,12 @@ label > input[type=checkbox] {
   border-radius: 10px;
   margin-bottom: 18px;
   object-position: 10%;
+  filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1.3);
+  transition: 0.3s all;
+}
+
+.post-item:hover > .post-header-image{
+ filter: none;
 }
 
 .blog-main-body{
