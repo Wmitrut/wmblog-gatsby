@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default class HTML extends React.Component {
   render() {
@@ -15,7 +15,13 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
-        <noscript>Este site usa javascript para funcionar. habilite-o ou envie um email para: <a href="mailto:wellingtonmitrut@gmail.com">wellingtonmitrut@gmail.com</a></noscript>
+          <noscript>
+            Este site usa javascript para funcionar. habilite-o ou envie um
+            email para:{' '}
+            <a href="mailto:wellingtonmitrut@gmail.com">
+              wellingtonmitrut@gmail.com
+            </a>
+          </noscript>
           {this.props.preBodyComponents}
           <div
             key={`body`}
@@ -23,6 +29,13 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <a
+            style={'display:none'}
+            rel="me"
+            href="https://mastodon.social/@wmitrut"
+          >
+            Mastodon
+          </a>
         </body>
       </html>
     )
