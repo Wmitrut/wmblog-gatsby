@@ -30,7 +30,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <a
-            style={'display:none'}
+            style={{ display: 'none' }}
             rel="me"
             href="https://mastodon.social/@wmitrut"
           >
