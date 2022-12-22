@@ -1,0 +1,19 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="360" height="360" rx="50" fill="url(#paint0_linear)"/>
+<rect x="194.4" y="91.0659" width="18.5847" height="155.042" transform="rotate(-39.679 194.4 91.0659)" fill="white"/>
+<rect x="293.393" y="79.436" width="18.3242" height="153.832" transform="rotate(39.68 293.393 79.436)" fill="white"/>
+<rect x="192.343" y="79.2046" width="16.4571" height="207.771" fill="white"/>
+<rect x="293.143" y="79.2007" width="16.4571" height="207.771" fill="white"/>
+<rect x="50.4" y="79.2075" width="16.4571" height="207.771" fill="white"/>
+<rect x="151.2" y="79.2002" width="16.4571" height="207.771" fill="white"/>
+<rect x="52.1821" y="168.04" width="18.5847" height="155.042" transform="rotate(-39.679 52.1821 168.04)" fill="white"/>
+<rect x="151.175" y="156.407" width="18.3242" height="153.832" transform="rotate(39.68 151.175 156.407)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear" x1="316.8" y1="39.6" x2="-2.85387e-05" y2="360" gradientUnits="userSpaceOnUse">
+<stop stop-color="#720000"/>
+<stop offset="0.430939" stop-color="#990100"/>
+<stop offset="0.718232" stop-color="#B00000"/>
+<stop offset="1" stop-color="#D30002"/>
+</linearGradient>
+</defs>
+</svg>
