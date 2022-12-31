@@ -74,7 +74,9 @@ Inclusive, a frase _Quer algo mais legal que o Bruce Dickinson de lança-chamas?
 
 ![ GRU Airport ](./009.jpg)
 
-Ainda, antes de encerrar o ano, fiz uma viagem profissional para São Paulo, depois de anos sem pisar num aeroporto devido a pandemia, e que saudade de ver o mundo la de cima e refletir o quão longe a humanidade pode ir.
+Ainda, antes de encerrar o ano, fiz uma viagem profissional para São Paulo, depois de anos sem pisar num aeroporto devido a pandemia, e que saudade de ver o mundo la de cima e refletir o quão longe a humanidade pode ir. Conheci vários profissionais da área e colegas de trabalho num evento privado no Morumbi.
+
+![ Caneca com meu nome ](./010.png)
 
 Fechando o ano, mais uma vez o Joselito me chamou pra dar uma palestra no TDC, numa trilha da qual ele seria coordenador. A palestra você pode conferir abaixo:
 
