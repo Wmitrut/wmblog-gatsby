@@ -190,13 +190,83 @@ bands.indexOf('Mastodon', 2)
 
 ### .lastIndexOf()
 
-### .isArray()
+Com o `lastIndexOf` é possível pegar a última posição de um valor em um array, por exêmplo:
+
+```js
+const animais = ['Gato', 'Cão', 'Canário', 'Peixe', 'Gato', 'Cobra']
+
+console.log(animais.lastIndexOf('Gato'))
+// 4
+console.log(animais.lastIndexOf('Cão'))
+// 1
+```
+
+Caso você queira buscar a partir de uma posição específica do array, você pode passar o array base como parâmetro, esse parâmetro por sua vez é conhecido como `fromIndex`.
+
+```js
+const animais = ['Gato', 'Cão', 'Canário', 'Peixe', 'Gato', 'Cobra']
+
+console.log(animais.lastIndexOf('Gato', 2))
+// 0
+console.log(animais.lastIndexOf('Cão', 2))
+// 1
+```
+
+### Array.isArray()
+
+Verifica se um valor passado é de fato um `Array`!
+
+```js
+const animais = ['Gato', 'Cão', 'Canário', 'Peixe', 'Gato', 'Cobra']
+const animal = 'Cavalo'
+
+console.log(Array.isArray(animais))
+//true
+
+console.log(Array.isArray(animal))
+//false
+```
+
+Pode parecer meio idiota mas quando você não sabe que tipo de valor está vindo em uma resposta de API, num debug e em `N` situações ele é um método bem útil.
 
 ### .join()
 
-### .pop()
+O método join transforma o array passado para ele em uma string, ou seja, ele pega seu array de strings e transforma em uma só. Podemos também passar um parâmetro como separador, que substituirá a vírgula, ex:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+console.log(bands.join())
+//'Gojira,Mastodon,The Ocean,Ghost,Opeth'
+```
+
+Se passarmos o parâmetro de separação:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+console.log(bands.join('And'))
+//'GojiraAndMastodonAndThe OceanAndGhostAndOpeth'
+```
 
 ### .push()
+
+O método `push` adiciona um (ou mais) novo ítem ao final do array, ex:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+bands.push('Behemoth')
+//novo array bands: ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', Behemoth]
+```
+
+### .pop()
+
+O `pop`remove o último elemento do final do array e retorna o elemento removido
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+bands.pop()
+//novo array bands: ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+//output: 'Behemoth'
+```
 
 ### .reverse()
 
