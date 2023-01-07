@@ -95,7 +95,7 @@ switch (anos) {
     return '7x1!'
     break
   default:
-    return 'Não foi uma copa marcante'
+    return 'Não foi uma copa marcante ou não foi copa'
 }
 ```
 
@@ -105,5 +105,33 @@ Algumas coisas devem ser levadas em consideração como:
 
 - O comando `break` para parar o código é implícito no return `default`;
 - Não se deve usar switch caso seja feita uma comparação antes;
+
+### Switch como Object Literal
+
+Ainda existe mais uma maneira de escrever um switch de maneira performática e sem ter que fazer toda a estrutura, dessa forma não precisamos de `break` ou `case`, criamos um [objeto](https://blog.wmitrut.co/basicao-js-002-objects/) com as propriedades e depois passamos a função. Pegamos por exêmplo:
+
+```js
+const getCopa = ano => {
+  let copa = {
+    1958: 'Mundial!',
+    1962: 'Bi-Campeonato',
+    1970: 'Tri!',
+    1994: 'TEEEEETRA!',
+    2002: 'Penta!',
+    2014: '7x1!',
+  }[ano]
+
+  return copa || 'Não foi uma copa marcante ou não foi copa'
+}
+
+console.log(getCopa(2002))
+// Penta!
+
+console.log(getCopa(2014))
+// 7x1!
+
+console.log(getCopa(2012))
+//Não foi uma copa marcante ou não foi copa
+```
 
 Nosso próximo assunto vai ser um pouco mais complexo e talvez eu divida em mais posts, eu estou falando de uma das estruturas mais importantes de Javascript, os **Arrays**.
