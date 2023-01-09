@@ -268,19 +268,178 @@ bands.pop()
 //output: 'Behemoth'
 ```
 
-### .reverse()
-
 ### .shift()
 
-### .slice()
+O método `shift` por sua vez faz a mesma coisa que o `pop`, porém para o primeiro ítem do array
 
-### .splice()
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+bands.shift()
+//novo array bands: ['Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+//output: 'Gojira'
+```
 
-### .some()
+### .reverse()
+
+O método `reverse` serve para inverter a ordem dos elementos em um array:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+
+bands.reverse()
+//novo array bands: ['Opeth', 'Ghost', 'The Ocean', 'Mastodon', ' Gojira']
+```
 
 ### .sort()
 
+O `sort` muda a ordem dos elementos em um array, para strings funciona muito bem, sendo necessário apenas chamar o método
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth']
+
+bands.sort()
+//novo array bands: ['Ghost', 'Gojira', 'Mastodon', 'Opeth', 'The Ocean']
+```
+
+Porém para números ele pode ser problemático - gerando valores bizarros como 25 vindo depois do 100 pois ele entende que 2 é maior que o 1 (esse tipo de bizarrice poderia render todo um post num futuro só explorando isso... que tal? Deixa nos comentários se você tem interesse), sendo necessário passar uma função de comparação como parâmetro, essa função então faz os cálculos apropriados e retorna um array numérico na ordem correta.
+
+```js
+//organiza os números em ordem crescente
+const notas = [20, 10, 100, 50, 80, 90, 30, 60, 40, 70]
+
+notas.sort((a, b) => {
+  return a - b
+})
+
+// notas = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+```
+
+ou
+
+```js
+//organiza os números em ordem decrescente
+const notas = [20, 10, 100, 50, 80, 90, 30, 60, 40, 70]
+
+notas.sort((a, b) => {
+  return b - a
+})
+
+// notas = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+```
+
+### .slice()
+
+Como o próprio nome já diz, ele tira uma `fatia`, ou seja, uma `slice` do array, dado uma posição de início e uma posição de fim - esta posição final NÃO é incluida no array, mas sim o ítem antes dela.
+
+Alguns casos de como `slice` pode se comportar
+
+Dado o seguinte array:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+```
+
+- Caso não exista uma posição de fim, ele faz da posição dada até o fim:
+
+```js
+console.log(bands.slice(2))
+//  ['The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+```
+
+- Caso seja dada uma posição de fim:
+
+```js
+console.log(bands.slice(2, 4))
+//  ['The Ocean', 'Ghost']
+```
+
+- Caso a posição de início dada seja NEGATIVA, ele inicia do final do array para o início:
+
+```js
+console.log(bands.slice(-2))
+//  ['Opeth', 'Behemoth']
+```
+
+- Caso o fim seja negativo
+
+```js
+console.log(bands.slice(2, -1))
+//  ['The Ocean', 'Ghost']
+```
+
+- Caso não seja dada nenhuma posição:
+
+```js
+console.log(bands.slice())
+//  ['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+```
+
+### .splice()
+
+O método `splice`é um método complexo que pode ser usado tanto para adicionar quanto para remover elementos de um array e é possível ainda escolher em que posição esses elementos serão adicionados ou removidos.
+
+Dado o seguinte array:
+
+```js
+const bands = ['Gojira', 'Mastodon', 'Opeth', 'Behemoth']
+```
+
+Sabendo que o splice tem a seguinte sintaxe:
+
+```js
+array.splice(index, aRemover, item1, ..., itemX);
+```
+
+- `index`: Sendo o índice que o splice vai começar;
+- `aRemover`: O número de ítems a serem removidos a paritr do índice dado;
+- `item1, ..., itemX`: novos elementos a serem adicionados ao array;
+
+Por exêmplo, caso queiramos adicionar 2 ítems ao nosso array de bandas:
+
+```js
+bands.splice(2, 0, 'The Ocean', 'Ghost')
+
+//['Gojira', 'Mastodon', 'The Ocean', 'Ghost', 'Opeth', 'Behemoth']
+```
+
+Ou caso queiramos remover items do nosso array:
+
+```js
+bands.splice(2, 2)
+
+//['Gojira', 'Mastodon']
+```
+
+### .some()
+
+Este método serve para checar se QUALQUER valor de um array bate com a validação de uma função, se qualquer valor corresponde ao pedido, se nenhum corresponder ele retorna `false`, se PELO MENOS UM corresponder, ele retorna `true`.
+
+```js
+const idades = [1, 8, 18, 25]
+const idades2 = [1, 8, 10, 12]
+
+const checkMaioridade = idade => {
+  return idade > 18
+}
+
+idades.some(checkMaioridade)
+// neste caso, retorna TRUE
+
+idades2.some(checkMaioridade)
+//retorna FALSE
+```
+
 ### .toString()
+
+O `toString` é um método que retorna os elementos de um array transformados em uma única string separada por `,`. Em teoria, todo array tem um método `toString()` implicito quando ele é mostrado em forma de texto.
+
+```js
+const notas = [20, 10, 100, 50, 80, 90, 30, 60, 40, 70]
+
+notas.toString()
+
+// '20, 10, 100, 50, 80, 90, 30, 60, 40, 70'
+```
 
 ---
 
