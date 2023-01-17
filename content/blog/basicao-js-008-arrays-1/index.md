@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '#008 - Basicão do JS: Eu me amArray '
-date: 2023-02-03 12:00:00
+date: 2023-02-17 12:00:00
 author: 'Wellington Mitrut'
 tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
