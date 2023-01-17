@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '#007 - Basicão do JS: Operadores condicionais '
-date: 2023-01-20 12:00:00
+date: 2023-02-03 12:00:00
 author: 'Wellington Mitrut'
 tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
