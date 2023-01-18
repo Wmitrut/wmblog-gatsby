@@ -17,7 +17,7 @@ Map, reduce e filter são três métodos muito úteis em JavaScript que fornecem
 O `Array.map()` atualiza cada valor individual em um determinado array com base em uma função fornecida e retorna um novo array do mesmo tamanho. Ele aceita uma função de retorno de chamada como argumento, que usa para aplicar a transformação.
 
 ```js
-let newArray = oldArray.map((value, index, array) => {
+let arrayNovo = arrayVelho.map((value, index, array) => {
   ...
 });
 ```
@@ -27,7 +27,7 @@ let newArray = oldArray.map((value, index, array) => {
 Em vez de um loop que use `for-each` para percorrer e aplicar essa função a cada valor, você pode usar um map. Isso serve quando você deseja preservar o valor inicial, mas atualizá-lo. Não estamos potencialmente eliminando nenhum valor (como faríamos com um filter) ou calculando um valor de saída (como usaríamos a reduce). Um map permite transformar um array peça por peça. Vejamos um exemplo:
 
 ```js
-;[1, 4, 6, 14, 32, 78].map(val => val * 10)
+let multiplicaPorDez = [1, 4, 6, 14, 32, 78].map(val => val * 10)
 // O resultado é: [10, 40, 60, 140, 320, 780]
 ```
 
@@ -44,7 +44,7 @@ Isso funciona como um filtro de pesquisa. Estamos filtrando os valores que passa
 Por exemplo, se tivermos uma array de valores numéricos e quisermos filtrá-los apenas para os valores maiores que 10, poderíamos escrever:
 
 ```js
-;[1, 4, 6, 14, 32, 78].filter(val => val > 10)
+let maiorQueDez = [1, 4, 6, 14, 32, 78].filter(val => val > 10)
 // O resultado é: [14, 32, 78]
 ```
 
@@ -53,7 +53,7 @@ Se fôssemos usar um método map neste array, como no exemplo acima, retornaría
 Ficaria assim:
 
 ```js
-;[1, 4, 6, 14, 32, 78].map(val => val > 10)
+let maiorQueDez = [1, 4, 6, 14, 32, 78].map(val => val > 10)
 // the result is: [false, false, false, true, true, true]
 ```
 
@@ -63,65 +63,63 @@ Um `filter`, no entanto, retorna apenas os valores verdadeiros. Portanto, o resu
 
 ## ![002](./002.png)
 
----
-
-Digamos que temos uma classe (muito pequena) de quatro cães na escola de obediência. Todos os cães tiveram desafios ao longo da escola de obediência e fizeram um exame final avaliado. Representaremos os cachorrinhos como um array de objetos, ou seja:
+Digamos que temos uma turma (muito pequena) de quatro animais na creche pet. Todos os pets tiveram desafios ao longo da creche e fizeram um exame final avaliado. Representaremos os bichinhos como um array de objetos, ou seja:
 
 ```js
-const students = [
+const pets = [
   {
-    name: 'Boops',
+    name: 'Malbec',
     finalGrade: 80,
   },
   {
-    name: 'Kitten',
+    name: 'Caramelo',
     finalGrade: 45,
   },
   {
-    name: 'Taco',
+    name: 'Mel',
     finalGrade: 100,
   },
   {
-    name: 'Lucy',
+    name: 'Belinha',
     finalGrade: 60,
   },
 ]
 ```
 
-Se os cães obtiverem uma pontuação superior a 70 em seu teste final, eles recebem um certificado sofisticado; e se não o fizerem, precisarão fazer o curso novamente. Para saber quantos certificados imprimir, precisamos escrever um método que retorne os cães com notas de aprovação. Em vez de escrever um loop para testar cada objeto no array, podemos encurtar nosso código com filtro!
+Se os pets obtiverem uma pontuação superior a 70 em seu teste final, eles recebem um certificado de bom comportamento; e se não o fizerem, precisarão fazer o curso novamente. Para saber quantos certificados imprimir, precisamos escrever um método que retorne os animais com notas de aprovação. Em vez de escrever um loop para testar cada objeto no array, podemos encurtar nosso código com um `filter`!
 
 ```js
-const passingDogs = students.filter(student => {
-  return student.finalGrade >= 70
+const passingPets = pets.filter(pet => {
+  return pet.finalGrade >= 70
 })
 
 /*
-passingDogs = [
+passingPets = [
   {
-    name: "Boops",
+    name: "Malbec",
     finalGrade: 80
   },
   {
-    name: "Taco",
+    name: "Mel",
     finalGrade: 100
   }
 ]
 */
 ```
 
-Como você pode ver, Boops e Taco são bons cachorros (na verdade, todos os cachorros são bons cachorros), então Boops e Taco estão recebendo certificados de conclusão por passar no curso! Podemos escrever isso em uma única linha de código com nossos adoráveis retornos implícitos e, em seguida, remover os parênteses de nossa função de seta, pois temos um único argumento:
+Como você pode ver, `Mel` e `Malbec` são bons bichinhos (na verdade, todos os bichinhis são bons bichinhos), então Mel e Malbec estarão recebendo certificados de conclusão por passar no curso! Podemos escrever isso em uma única linha de código com nossos adoráveis retornos implícitos e, em seguida, remover os parênteses de nossa `arrow function`(tópico futuro), pois temos um único argumento:
 
 ```js
-const passingDogs = students.filter(student => student.finalGrade >= 70)
+const passingPets = pets.filter(pet => pet.finalGrade >= 70)
 
 /*
-passingDogs = [
+passingPets = [
   {
-    name: "Boops",
+    name: "Malbec",
     finalGrade: 80
   },
   {
-    name: "Taco",
+    name: "Mel",
     finalGrade: 100
   }
 ]
@@ -130,69 +128,69 @@ passingDogs = [
 
 ## Array.reduce()
 
-O método reduce() pega os valores de entrada de uma array e retorna um único valor. Este é realmente interessante. Reduzir aceita uma função de retorno de chamada que consiste em um acumulador (um valor que acumula cada parte do array, crescendo como uma bola de neve), o próprio valor e o índice. Também leva um valor inicial como segundo argumento:
+O método `reduce()` pega os valores de entrada de uma array e retorna um único valor. O `reduce` aceita uma função de retorno que consiste em um acumulador (um valor que acumula cada parte do array, crescendo como uma bola de neve), o próprio valor e o índice. Também leva um valor inicial como segundo argumento:
 
 ![003](./003.png)
 
 Vamos configurar uma função de cozimento e uma lista de ingredientes:
 
 ```js
-// our list of ingredients in an array
-const ingredients = ['wine', 'tomato', 'onion', 'mushroom']
+// Nossa lista de ingredientes em um array
+const ingredientes = ['vinho', 'tomate', 'cebola', 'cogumelo']
 
 // a cooking function
-const cook = ingredient => {
-  return `cooked ${ingredient}`
+const cozinhar = ingrediente => {
+  return `cozinhou ${ingrediente}`
 }
 ```
 
-Se quisermos reduzir os itens a um molho (trocadilho intencional), vamos reduzi-los com reduce()!
+Se quisermos fazer uma redução dos itens a um molho (trocadilho intencional), vamos reduzi-los com `reduce()` !
 
 ```js
-const wineReduction = ingredients.reduce((sauce, item) => {
-  return (sauce += cook(item) + ', ')
+const reducaoVinho = ingredientes.reduce((molho, item) => {
+  return (molho += cozinhar(item) + ', ')
 }, '')
 
-// wineReduction = "cooked wine, cooked tomato, cooked onion, cooked mushroom, "
+// reducaoVinho = "cozinhou vinho, cozinhou tomate, cozinhou cebola, cozinhou cogumelo, "
 ```
 
-Esse valor inicial ('' no nosso caso) é importante porque se não o tivermos, não cozinhamos o primeiro item. Isso torna nossa saída um pouco instável, então é definitivamente algo a se observar. Aqui está o que quero dizer:
+Esse valor inicial (`''` no nosso caso) é importante porque se não o tivermos, não cozinhamos o primeiro item. Isso torna nossa saída um pouco instável, então é definitivamente algo a se observar. Aqui está o que quero dizer:
 
 ```js
-const wineReduction = ingredients.reduce((sauce, item) => {
-  return (sauce += cook(item) + ', ')
+const reducaoVinho = ingredients.reduce((molho, item) => {
+  return (molho += cozinhar(item) + ', ')
 })
 
-// wineReduction = "winecooked tomato, cooked onion, cooked mushroom, "
+// reducaoVinho = "vinhocozinhou tomate, cozinhou cebola, cozinhou cogumelo, "
 ```
 
 Por fim, para garantir que não haja espaços em excesso no final de nossa nova string, podemos passar o índice e o array para aplicar nossa transformação:
 
 ```js
-const wineReduction = ingredients.reduce((sauce, item, index, array) => {
-  sauce += cook(item)
+const reducaoVinho = ingredientes.reduce((molho, item, index, array) => {
+  molho += cozinhar(item)
   if (index < array.length - 1) {
-    sauce += ', '
+    molho += ', '
   }
-  return sauce
+  return molho
 }, '')
 
-// wineReduction = "cooked wine, cooked tomato, cooked onion, cooked mushroom"
+// reducaoVinho = "cozinhou vinho, cozinhou tomate, cozinhou cebola, cozinhou cogumelo"
 ```
 
 Agora podemos escrever isso de forma ainda mais concisa (em uma única linha!) usando operadores ternários, modelos de string e retornos implícitos:
 
 ```js
-const wineReduction = ingredients.reduce((sauce, item, index, array) => {
+const reducaoVinho = ingredientes.reduce((molho, item, index, array) => {
   return index < array.length - 1
-    ? (sauce += `${cook(item)}, `)
-    : (sauce += `${cook(item)}`)
+    ? (molho += `${cozinhar(item)}, `)
+    : (molho += `${cozinhar(item)}`)
 }, '')
 
-// wineReduction = "cooked wine, cooked tomato, cooked onion, cooked mushroom"
+// reducaoVinho = "cozinhou vinho, cozinhou tomate, cozinhou cebola, cozinhou cogumelo"
 ```
 
-> A little way to remember this is to recall how you make sauce: you reduce a few ingredients down to a single item.
+> Uma pequena maneira de lembrar disso é lembrar como você faz o molho: você reduz alguns ingredientes a um único item.
 
 ## Cante comigo!
 
