@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '#010 - Basicão do JS: Um guia ilustrado (e musical) sobre métodos em JS '
-date: 2023-06-17 12:00:00
+date: 2023-03-17 12:00:00
 author: 'Wellington Mitrut'
 tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
