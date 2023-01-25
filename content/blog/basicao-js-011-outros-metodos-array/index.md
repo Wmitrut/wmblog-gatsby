@@ -39,7 +39,7 @@ Tenhamos o array
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
----
+Abaixo temos separados, pois cada vez que esse método é chamado, ele altera o array original:
 
 ```js
 numeros.copyWithin(-2)
@@ -104,7 +104,57 @@ Como pode ser observado, ele procura pelo EXATO termo correspondente então, mes
 
 ### keys()
 
+O método `keys` é difícil até de definir, mas ele cria um objeto iterador que contém as chaves para cada índice no array de entrada fornecido.
+
+```js
+const letras = ['a', 'b', 'c']
+const iterador = letras.keys()
+
+console.log(iterador.next())
+// { value: 0, done: false }
+console.log(iterador.next())
+// { value: 1, done: false }
+console.log(iterador.next())
+// { value: 2, done: false }
+console.log(iterador.next())
+// { value: undefined, done: true }
+```
+
+Dessa forma, ele vai mostrando o valor de cada `key` e quando não existem mais `keys` ou _posições_ no array ele retorna `undefined` e `done` como true pra dizer que JA DEU, acabou o array.
+
 ### reduceRight()
+
+O método `reduceRight()` é muito similar ao próprio `reduce()` que já tratamos aqui anteriormente em mais de um post, porém ele vem da direção oposta.
+
+Se no `reduce` ele começa o método do primeiro elemento do array e vai até o último, no `reduceRight` ele vem do último até o primeiro.
+
+No caso, é utilizado para "reduzir" um array a um único valor, aplicando uma função acumuladora para cada elemento do array. Ou seja, uma função que vai guardando valor e aplicando o que acumulou aos próximos valores na fila.
+
+Pegamos novamente o exemplo das notas mas vamos logar o número acumulador e o corrente com `reduceRight`:
+
+```js
+const notasSO = [6, 8, 9, 8]
+
+const somaNotas = notasSO.reduceRight((ac, current) => {
+  console.log('ac:', ac, 'current:', current)
+  return ac + current
+}, 0)
+
+console.log(somaNotas)
+```
+
+dessa forma, cada vez que o método for executado, teremos o número acumulado mais a soma e no final a soma das notas:
+
+```js
+//ac: 0 current: 8
+//ac: 8 current: 9
+//ac: 17 current: 8
+//ac: 25 current: 6
+
+//31
+```
+
+E exatamente como o `reduce` mas na direção oposta, o `reduceRight`, a função acumuladora (a primeira callback) é chamada com dois argumentos: o acumulador (que começa com o valor inicial 0 - por isso daquele zero no final, ou seja, eu posso fazer uma variável e setar o valor inicial que eu quiser) e o valor atual (que é o próximo elemento do array mas do final para o início). O acumulador é atualizado com a soma dos dois argumentos e retornado para a próxima chamada da função de acumulador. A variável `somaNotas` conterá o valor final `31`, que é a soma de todos os elementos do array.
 
 ### unshift()
 
@@ -120,7 +170,7 @@ bands.unshift('Behemoth')
 
 ### valueOf()
 
-Talvez o método mais INÚTIL? Não sei dizer, mas ele simplesmente mostra o valor do array.
+Talvez o método mais sem graça? Não sei dizer, mas ele simplesmente mostra o valor do array.
 
 SIM. é isso.
 
@@ -133,3 +183,9 @@ bands.valueOf()
 😴😴😴
 
 ### ENFIM...
+
+Acabamos com os arrays e você já tem um arcabouço de métodos mágicos bem grande e que já podem te dar uma boa liberdadade de como trabalhar com javascript.
+
+Mas esse não é o fim dessa série. Em algumas semanas retornaremos com `funções`, `prototypes`, `construtores`, `promises` e por aí vai.
+
+Compartilhe esse texto e volte sempre.
