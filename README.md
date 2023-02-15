@@ -1,6 +1,5 @@
-
 <p align="center">
-  <a href="https://blog.wmitrut.com/">
+  <a href="https://blog.wmitrut.co/">
     <img alt="Wellington Mitrut" src="content/assets/icon.svg" width="60" />
   </a>
 </p>
@@ -16,12 +15,6 @@ O tema de sintaxe é baseado no [Monokai](https://github.com/monokai) com alguma
 
 Este site utiliza netlify para hospedar-se.
 
-
 ### Contribuindo:
 
-Para rodar localmente instale dependencias com  `yarn`, e então  `gatsby develop`, abra  https://localhost:8000 para ver rodando.
-
-
-
-
-
+Para rodar localmente instale dependencias com `yarn`, e então `gatsby develop`, abra https://localhost:8000 para ver rodando.

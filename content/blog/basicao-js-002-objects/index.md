@@ -3,7 +3,7 @@ layout: post
 title: '#002 Basicão do JS: Tipos de dados em Javascript - parte 2: Objects'
 date: 2020-05-25 12:00:00
 author: 'Wellington Mitrut'
-tags: ["Javascript", "Community", "Basicão do Javascript"]
+tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
 featuredImage: ./001.jpg
 ---
@@ -14,7 +14,7 @@ featuredImage: ./001.jpg
 
 Semana passada (ou alguns dias mais) eu falei aqui sobre os primitivos básicos de JS, se você não leu, é essencial que dê uma conferida antes de prosseguir nesse artigo pois lá cobrimos as propriedades essenciais para começar a entender estruturas de dados em JS, você pode acessar clicando no link abaixo.
 
-[#001 Basicão do JS: Tipos de dados em Javascript - parte 1: Primitivos](https://blog.wmitrut.com/basicao-js-001-primitives/)
+[#001 Basicão do JS: Tipos de dados em Javascript - parte 1: Primitivos](https://blog.wmitrut.co/basicao-js-001-primitives/)
 
 Quero começar este post agradecendo o [Leonardo Saraiva](https://twitter.com/vyper), que enviou pull request corrigindo algumas coisas do último texto, se você ver algum erro aqui, faça como ele e manda um PR lá!
 

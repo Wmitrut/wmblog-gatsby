@@ -3,7 +3,7 @@ layout: post
 title: 'I Can’t Believe It’s not NATIVE! — Parte 3 - LIGHTHOUSE'
 date: 2019-03-08 12:00:00
 author: 'Wellington Mitrut'
-tags: ["PWA","Javascript", "Performance", "Lighthouse"]
+tags: ['PWA', 'Javascript', 'Performance', 'Lighthouse']
 comments: true
 featuredImage: ./lighthouse_photo.jpg
 ---
@@ -14,7 +14,7 @@ featuredImage: ./lighthouse_photo.jpg
 
 Continuando nossa série sobre PWAs, Performance e UX, trago dessa vez uma das ferramentas essenciais para quem quer construir um PWA incrível. O **Lighthouse**.
 
-> o primeiro post da série você vê [aqui](https://blog.wmitrut.com/cant-believe-1/) e o segundo [aqui](https://blog.wmitrut.com/cant-believe-2/).
+> o primeiro post da série você vê [aqui](https://blog.wmitrut.co/cant-believe-1/) e o segundo [aqui](https://blog.wmitrut.co/cant-believe-2/).
 
 Segundo o Google, criador da ferramenta
 
@@ -32,7 +32,7 @@ Uma mão na roda né?
 
 ### Mas Mitrut, eu nunca ouvi falar nisso!
 
-Tudo bem, estamos aqui pra isso. Este blog foi construido totalmente de olho no que ocorre no score do lighthouse dele - ou seja. Pensado para ter performance e um score alto. No [post anterior](https://blog.wmitrut.com/welcome-back/) eu mostrei o score básico e como este blog foi construido para ser um PWA:
+Tudo bem, estamos aqui pra isso. Este blog foi construido totalmente de olho no que ocorre no score do lighthouse dele - ou seja. Pensado para ter performance e um score alto. No [post anterior](https://blog.wmitrut.co/welcome-back/) eu mostrei o score básico e como este blog foi construido para ser um PWA:
 
 ![Resultados do Blog no Lighthouse](./results.png)
 

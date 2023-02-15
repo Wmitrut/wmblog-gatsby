@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
               },
               {
                 property: `og:url`,
-                content: "https://blog.wmitrut.com"+ url,
+                content: 'https://blog.wmitrut.co' + url,
               },
               {
                 property: `og:image`,
@@ -44,11 +44,11 @@ function SEO({ description, lang, meta, keywords, title, url, image }) {
               },
               {
                 property: `og:image:width`,
-                content: `800`
+                content: `800`,
               },
               {
                 property: `og:image:height`,
-                content: `600`
+                content: `600`,
               },
               {
                 name: `twitter:card`,
@@ -91,8 +91,8 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   keywords: [],
-  url:'',
-  image: 'https://i.imgur.com/ihGD5fI.png'
+  url: '',
+  image: 'https://i.imgur.com/ihGD5fI.png',
 }
 
 SEO.propTypes = {
@@ -102,7 +102,7 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
   url: PropTypes.string,
-  image: PropTypes.string.isRequired
+  image: PropTypes.string.isRequired,
 }
 
 export default SEO

@@ -3,7 +3,7 @@ layout: post
 title: 'Bem-Vindos novamente ao show que nunca termina'
 date: 2019-03-02 12:00:00
 author: 'Wellington Mitrut'
-tags: ["Meta", "Comunidade", "Blog", "Javascript", "Typescript"]
+tags: ['Meta', 'Comunidade', 'Blog', 'Javascript', 'Typescript']
 comments: true
 featuredImage: ./elp.jpg
 ---
@@ -32,7 +32,7 @@ Um belo dia, lendo um texto lá em dezembro de 2018 eu me deparei com isso aqui:
 
 ![Medium Premium](./medium.png)
 
-Eu não estava na área de membros fazendo um trial, eu não sou usuário premium e o post era gratuito, era público mas se isso estava acontecendo com um post público qualquer então estaria também ocorrendo com os meus naturalmente. Isto ia contra todo um princípio que já falei aqui no blog em [outro post](https://blog.wmitrut.com/im-back/) sobre licença Beerware (ainda válida ta galera?) e sobre ser Open Source por natureza.Foi aí que eu decidi recriar o meu blog da maneira antiga. Sob meu controle.
+Eu não estava na área de membros fazendo um trial, eu não sou usuário premium e o post era gratuito, era público mas se isso estava acontecendo com um post público qualquer então estaria também ocorrendo com os meus naturalmente. Isto ia contra todo um princípio que já falei aqui no blog em [outro post](https://blog.wmitrut.co/im-back/) sobre licença Beerware (ainda válida ta galera?) e sobre ser Open Source por natureza.Foi aí que eu decidi recriar o meu blog da maneira antiga. Sob meu controle.
 
 O primeiro passo foi encontrar uma maneira rápida de criar um site estático e limpo, como estou estudando React diariamente o [GatsbyJS](https://www.gatsbyjs.org/) me pareceu a maneira mais sensata de começar essa nova etapa, usei o [Gatsby Starter Blog](https://github.com/gatsbyjs/gatsby-starter-blog), dei uma personalizada de leve e passei para a segunda e mais morosa etapa: migrar os posts para markdown. Os posts mais antigos, da epoca que usava Jekyll foram faceis, alguns ajustes nas pastas, no markdown dos textos e eles já estavam prontos, o que deu trabalho foi o Medium e lá se foi meu janeiro/2019.
 

@@ -3,12 +3,13 @@ module.exports = {
     title: `Blog do Mitrut`,
     author: `Wellington Mitrut`,
     description: `Designer, developer and technology consultant.`,
-    siteUrl: `https://blog.wmitrut.com/`,
+    siteUrl: `https://blog.wmitrut.co/`,
     social: {
       twitter: `wmitrut`,
     },
   },
-  plugins: [{
+  plugins: [
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -25,7 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [{
+        plugins: [
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
@@ -38,7 +40,7 @@ module.exports = {
             },
           },
           {
-            resolve: "gatsby-remark-embed-gist",
+            resolve: 'gatsby-remark-embed-gist',
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
@@ -84,10 +86,10 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
-      resolve: "gatsby-plugin-page-progress",
+      resolve: 'gatsby-plugin-page-progress',
       options: {
         height: 3,
-        excludePaths:["/"],
+        excludePaths: ['/'],
         prependToBody: false,
         color: `#e32528`,
         footerHeight: 500,
@@ -100,7 +102,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-      
     },
   ],
 }

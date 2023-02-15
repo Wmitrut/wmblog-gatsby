@@ -3,7 +3,7 @@ layout: post
 title: '#003 Basicão do JS: Várias Variáveis'
 date: 2021-01-25 12:00:00
 author: 'Wellington Mitrut'
-tags: ["Javascript", "Community", "Basicão do Javascript"]
+tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
 featuredImage: ./001.jpg
 ---
@@ -24,9 +24,9 @@ Dito isto, como sempre, coloca o último álbum do Katatonia aí
 
 Se você não viu os primeiros posts desta série, vai lá e lê, não leva muito tempo não:
 
-[Parte 1](https://blog.wmitrut.com/basicao-js-001-primitives/)
+[Parte 1](https://blog.wmitrut.co/basicao-js-001-primitives/)
 
-[Parte 2](https://blog.wmitrut.com/basicao-js-002-objects/)
+[Parte 2](https://blog.wmitrut.co/basicao-js-002-objects/)
 
 ### Variáveis vs. Constantes
 
