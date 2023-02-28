@@ -5,10 +5,12 @@ date: 2023-03-17 12:00:00
 author: 'Wellington Mitrut'
 tags: ['Javascript', 'Community', 'Basicão do Javascript']
 comments: true
-featuredImage: ./001.png
+featuredImage: ./001.jpeg
 ---
 
 _Este é um texto traduzido e adaptado de [An Illustrated (and Musical) Guide to Map, Reduce, and Filter Array Methods](<https://css-tricks.com/an-illustrated-and-musical-guide-to-map-reduce-and-filter-array-methods/)>) de [Una Kravets](<[https://twitter.com/Una)>) da equipe do Google Chrome._
+
+> As imagens deste post foram feitas pelo [Cadu Carvalho](https://twitter.com/carvalhocadu/), direto do Canadá :D - O Cadu é Front-end e trabalha com tipografia, assine a ótima [newsletter](https://tipoaquilo.substack.com/) dele! MUITO Obrigado Cadu!
 
 Map, reduce e filter são três métodos muito úteis em JavaScript que fornecem aos desenvolvedores ferramentas de muito poder em um curto espaço de tempo. Vamos pular direto para você pode aproveitar (e lembrar como usar!) Esses métodos super úteis.
 
@@ -33,7 +35,7 @@ let multiplicaPorDez = [1, 4, 6, 14, 32, 78].map(val => val * 10)
 
 No exemplo acima, pegamos um array inicial ( `[1, 4, 6, 14, 32, 78]` ) e mapeamos cada valor nele para ser esse valor vezes dez `(val * 10)`. O resultado é um novo array com cada valor do array original transformado pela equação: `[10, 40, 60, 140, 320, 780]`.
 
-![001](./001.png)
+![001](./001.jpeg)
 
 ## Array.filter()
 
@@ -61,7 +63,7 @@ Um `filter`, no entanto, retorna apenas os valores verdadeiros. Portanto, o resu
 
 > Pense no filter como um tipo de peneira. Parte da mistura passará para o resultado, mas parte será deixada para trás e descartada.
 
-## ![002](./002.png)
+## ![002](./002.jpeg)
 
 Digamos que temos uma turma (muito pequena) de quatro animais na creche pet. Todos os pets tiveram desafios ao longo da creche e fizeram um exame final avaliado. Representaremos os bichinhos como um array de objetos, ou seja:
 
@@ -130,7 +132,7 @@ passingPets = [
 
 O método `reduce()` pega os valores de entrada de uma array e retorna um único valor. O `reduce` aceita uma função de retorno que consiste em um acumulador (um valor que acumula cada parte do array, crescendo como uma bola de neve), o próprio valor e o índice. Também leva um valor inicial como segundo argumento:
 
-![003](./003.png)
+![003](./003.jpeg)
 
 Vamos configurar uma função de cozimento e uma lista de ingredientes:
 
