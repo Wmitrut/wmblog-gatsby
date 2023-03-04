@@ -6,10 +6,8 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 import { cups } from '../utils/cups'
-import { DiscussionEmbed } from "disqus-react";
-import Share from '../components/Share';
-
-
+import { DiscussionEmbed } from 'disqus-react'
+import Share from '../components/Share'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,20 +17,20 @@ class BlogPostTemplate extends React.Component {
     const excerpt = this.props.excerpt
     const url = this.props.pageContext.slug
 
-    const disqusShortname = "wmitrut";
+    const disqusShortname = 'wmitrut'
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
-    };
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO 
-          title={post.frontmatter.title} 
-          description={post.excerpt} 
+        <SEO
+          title={post.frontmatter.title}
+          description={post.excerpt}
           url={url}
-          image={post.frontmatter.featuredImage}
-          />
+          image={post.frontmatter.featuredImage.childImageSharp.fluid}
+        />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -42,14 +40,13 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-        <small style={{color:"#9c9c9c"}}>
-          {post.frontmatter.date}
-          {` • ${cups(post.timeToRead)}`}
-
-        </small>
+          <small style={{ color: '#9c9c9c' }}>
+            {post.frontmatter.date}
+            {` • ${cups(post.timeToRead)}`}
+          </small>
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <Share title={post.frontmatter.title} excerpt={excerpt} url={url}/>
+        <Share title={post.frontmatter.title} excerpt={excerpt} url={url} />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -82,7 +79,6 @@ class BlogPostTemplate extends React.Component {
         </ul>
         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </Layout>
-      
     )
   }
 }
@@ -106,10 +102,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        featuredImage{
-          childImageSharp{
-              sizes(maxWidth: 630) {
-                ...GatsbyImageSharpSizes
+        featuredImage {
+          childImageSharp {
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
             }
           }
         }
