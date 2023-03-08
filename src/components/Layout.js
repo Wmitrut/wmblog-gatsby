@@ -13,32 +13,37 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <div style={{
-          display: "flex",
-          flexDirection: "row",
-          padding:"0 15px 0 0"
-        }}>
-        <h1
+        <div
           style={{
-            ...scale(0.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            color: '#e32528',
+            display: 'flex',
+            flexDirection: 'row',
+            padding: '0 15px 0 0',
           }}
         >
-          <Link
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
+              ...scale(0.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
               color: '#e32528',
             }}
-            to={`/`}
           >
-            <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "50%", margin: 0}}/>
-          </Link>{' '}
-          
-        </h1>
-        <ThemeToggle />
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: '#e32528',
+              }}
+              to={`/`}
+            >
+              <img
+                src={blogsabbath}
+                alt="blog do mitrut"
+                style={{ maxWidth: '50%', margin: 0 }}
+              />
+            </Link>{' '}
+          </h1>
+          <ThemeToggle />
         </div>
       )
     } else {
@@ -61,7 +66,11 @@ class Layout extends React.Component {
             to={`/`}
           >
             {' '}
-            <img src={blogsabbath} alt="blog do mitrut" style={{maxWidth: "30%", margin:0}}/>
+            <img
+              src={blogsabbath}
+              alt="blog do mitrut"
+              style={{ maxWidth: '30%', margin: 0 }}
+            />
           </Link>{' '}
         </h3>
       )
@@ -83,8 +92,10 @@ class Layout extends React.Component {
         <footer>
           {' '}
           <span>
-            © {year}, Built with <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
+            © {year}, Feito com <a href="https://www.gatsbyjs.org"> Gatsby </a>{' '}
+            , Veja o que eu <a href={'https://blog.wmitrut.co/uses'}>uso</a>.
           </span>
+          <span></span>
         </footer>{' '}
       </div>
     )
