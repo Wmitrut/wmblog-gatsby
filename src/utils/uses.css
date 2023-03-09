@@ -27,3 +27,16 @@
   display: list-item;
   margin-left: 2em;
 }
+
+@media screen and (max-width: 700px) {
+  .uses-wrapper {
+    flex-flow: column;
+    align-content: center;
+    height: auto;
+  }
+
+  .uses-card {
+    width: 100%;
+    max-height: auto;
+  }
+}
