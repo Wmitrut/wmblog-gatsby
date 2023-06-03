@@ -30,7 +30,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 800,
             },
           },
           {
@@ -77,7 +77,7 @@ module.exports = {
         short_name: `Mitrut`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#e32528`,
+        theme_color: `#cba6f7`,
         display: `standalone`,
         icon: `content/assets/icon.png`,
         include_favicon: true,
@@ -91,7 +91,7 @@ module.exports = {
         height: 3,
         excludePaths: ['/'],
         prependToBody: false,
-        color: `#e32528`,
+        color: `#cba6f7`,
         footerHeight: 500,
         headerHeight: 0,
       },
